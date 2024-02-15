@@ -1,1 +1,31 @@
+{
+  "Cours": [
+    {
+      "id": "javaFrontSynDeb001",
+      "titreCours": "Java FrontEnd pour débutants",
+      "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
+      "formateur": "Richard Pineault",
+      "adresse": "On ligne",
+      "dateDebutCours": "2024-03-04",
+      "dateFinCors": "2024-03-29",
+      "heureDebut": "18:00",
+      "heureFin": "22:00",
+      "prix": 250,
+      "planFormation": "/plan/planJavaFrontSynDeb001.pdf",
+      "image": "/photos/ImgJavaFrontSynDeb001.jpeg",
+      "nombreEtoiles": "5",
+      "materiauxRequis": "L'ordinateur avec camera, l'internet haute vitesse",
+      "sections": [
+        {
+          "titreSection": "Section 1",
+          "descSection": "Description de la section 1",
+          "dateDebutSection": "2024-03-04",
+          "dateFinSection": "2024-03-29",
+          "dureeSection": "26 jours", // Peut-être inutile, mais peut être calculé
+          "noteCours": "Notes de cours"
+        }
+      ]
+    }
 
+  ]
+}
