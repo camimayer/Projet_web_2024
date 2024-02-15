@@ -1,0 +1,127 @@
+{
+    "listes":[
+    { 
+        "image" : "html.jpg",
+        "description" : "Introduction au HTML",
+        "durée" : 22,
+        "prix" : 24,
+        "evalutation" : 4.6,
+        "section" :{
+            "titre" : "Développement d'un site Web et de la mise en page",
+            "description" : "Introduction au developpement d'un site Web et de la mise en page avec HTML",
+            "durée" : "30",
+            "notes" : [
+                {
+                    "note" : "html_notes.pdf"
+                }
+            ],
+            "videos" : [
+                {
+                    "titre" : "Les bases fondamentale d'un site Web",
+                    "description" : "Explorer les concepts de bases HTML",
+                    "url" : "",
+                    "évaluation" : 4.5,
+                    "temps" : "25"
+                },
+                {
+                    "titre" : "Coté maquillage du site Web",
+                    "description" : "Explorer les concepts de bases de CSS",
+                    "url" : "",
+                    "évaluation" : 4,
+                    "temps" : "25"
+                },
+                {
+                    "titre" : "Qu'est-ce que JavaScript ?",
+                    "description" : "Explorer les concepts de bases JavaScript",
+                    "url" : "",
+                    "évaluation" : 4.7,
+                    "temps" : "25"
+                }
+                
+            ]
+            
+        }
+    },
+    { 
+        "image" : "python.jpg",
+        "description" : "Python : La Formation Complète 2024",
+        "durée" : 40,
+        "prix" : 19.23,
+        "evalutation" : 4.6,
+        "section" :{
+            "titre" : "Apprendre à réaliser des sites web et des projets complets de A à Z.",
+            "description" : "De 0 à expert Python : la formation la plus complète avec 15 projets",
+            "durée" : "35",
+            "notes" : [
+                {
+                    "note1" : "python_notes.pdf",
+                    "note2" : "python2_notes.pdf"
+                }
+            ],
+            "videos" : [
+                {
+                    "titre" : "Apprendre tous les concepts de Python, des bases aux méthodes avancées, en partant de 0.",
+                    "description" : "Apprendre à réaliser des sites web et des projets complets de A à Z.",
+                    "url" : "",
+                    "évaluation" : 4.5,
+                    "temps" : "25"
+                },
+                {
+                    "titre" : "Coté maquillage du site Web",
+                    "description" : "Explorer les concepts de bases de CSS",
+                    "url" : "",
+                    "évaluation" : 4,
+                    "temps" : "25"
+                },
+                {
+                    "titre" : "Apprendre la gestion d'erreurs et le débogage",
+                    "description" : "Comment tester ton code avec les tests unitaires",
+                    "url" : "",
+                    "évaluation" : 4.7,
+                    "temps" : "25"
+                }
+            ]
+        }
+    },
+    { 
+        "image" : "JS.jpg",
+        "description" : "Introduction au JavaScript",
+        "durée" : 32,
+        "prix" : 29.99,
+        "evalutation" : 4.8,
+        "section" :{
+            "titre" : "La base de JavaScript",
+            "description" : "Ajouter des méthodes à des classes existantes",
+            "durée" : "32",
+            "notes" : [
+                {
+                    "note" : "JS_notes.pdf"
+                }
+            ],
+            "videos" : [
+                {
+                    "titre" : "Les bases fondamentale d'un site Web avec JavaScript",
+                    "description" : "Explorer les concepts de bases JavaScript",
+                    "url" : "",
+                    "évaluation" : 4.5,
+                    "temps" : "25"
+                },
+                {
+                    "titre" : "Modifier les attributs inline des balises HTML en JavaScript",
+                    "description" : "Manipuler les classes CSS en JavaScript",
+                    "url" : "",
+                    "évaluation" : 4,
+                    "temps" : "25"
+                },
+                {
+                    "titre" : "Accéder aux éléments du DOM",
+                    "description" : "Créer des fonctions événementielles pour réagir au clavier, à la souris et aux événements système",
+                    "url" : "",
+                    "évaluation" : 4.7,
+                    "temps" : "25"
+                }
+            ]
+        }
+    }
+]
+}
