@@ -1,7 +1,7 @@
 {
   "Cours": [
     {
-      "id": "javaFrontSynDeb001",
+      "id": "sync001",
       "titreCours": "Java FrontEnd pour débutants",
       "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
       "formateur": "Richard Pineault",
@@ -10,9 +10,11 @@
       "dateFinCors": "2024-03-29",
       "heureDebut": "18:00",
       "heureFin": "22:00",
+      "isPromotion": true,
       "prix": 250,
-      "planFormation": "/plan/planJavaFrontSynDeb001.pdf",
-      "image": "/photos/ImgJavaFrontSynDeb001.jpeg",
+      "newPrix": 200,
+      "planFormation": "/plan/sync001.pdf",
+      "image": "/photos/sync001.jpeg",
       "nombreEtoiles": "5",
       "materiauxRequis": "L'ordinateur avec camera, l'internet haute vitesse",
       "sections": [
@@ -21,11 +23,328 @@
           "descSection": "Description de la section 1",
           "dateDebutSection": "2024-03-04",
           "dateFinSection": "2024-03-29",
-          "dureeSection": "26 jours", // Peut-être inutile, mais peut être calculé
-          "noteCours": "Notes de cours"
+          "dureeSection": "26 jours", 
+          "noteCours": "Notes de cours",
+          "videos" : []
+        }
+      ]
+    },
+    {
+      "id": "sync002",
+      "titreCours": "Python Backend pour débutants",
+      "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
+      "formateur": "Sophie Dubois",
+      "adresse": "En ligne",
+      "dateDebutCours": "2024-03-10",
+      "dateFinCors": "2024-04-05",
+      "heureDebut": "17:00",
+      "heureFin": "21:00",
+      "isPromotion": false,
+      "prix": 300,
+      "newPrix": null,
+      "planFormation": "/plan/sync002.pdf",
+      "image": "/photos/sync002.jpeg",
+      "nombreEtoiles": "4",
+      "materiauxRequis": "Ordinateur avec connexion internet",
+      "sections": [
+        {
+          "titreSection": "Section 1",
+          "descSection": "Introduction à Python",
+          "dateDebutSection": "2024-03-10",
+          "dateFinSection": "2024-03-25",
+          "dureeSection": "16 jours", 
+          "noteCours": "Notes de cours Python",
+          "videos" : ["video1.mp4", "video2.mp4"]
+        }
+      ]
+    },
+    {
+      "id": "sync003",
+      "titreCours": "JavaScript Avancé",
+      "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
+      "formateur": "Emma Lefebvre",
+      "adresse": "En ligne",
+      "dateDebutCours": "2024-04-01",
+      "dateFinCors": "2024-04-30",
+      "heureDebut": "19:00",
+      "heureFin": "23:00",
+      "prix": 350,
+      "planFormation": "/plan/sync003.pdf",
+      "image": "/photos/sync003.jpeg",
+      "nombreEtoiles": "5",
+      "materiauxRequis": "Ordinateur avec accès internet",
+      "sections": [
+        {
+          "titreSection": "Introduction à JavaScript",
+          "descSection": "Apprendre les bases de JavaScript",
+          "dateDebutSection": "2024-04-01",
+          "dateFinSection": "2024-04-15",
+          "dureeSection": "15 jours", 
+          "noteCours": "Notes de cours JavaScript",
+          "videos" : ["intro_js.mp4"]
+        },
+        {
+          "titreSection": "Projets JavaScript",
+          "descSection": "Travaux pratiques sur JavaScript",
+          "dateDebutSection": "2024-04-16",
+          "dateFinSection": "2024-04-30",
+          "dureeSection": "15 jours", 
+          "noteCours": "Projets JavaScript",
+          "videos" : ["projets_js1.mp4", "projets_js2.mp4"]
+        }
+      ]
+    },
+    {
+      "id": "sync004",
+      "titreCours": "React Native Development",
+      "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
+      "formateur": "Michael Johnson",
+      "adresse": "En ligne",
+      "dateDebutCours": "2024-05-05",
+      "dateFinCors": "2024-05-30",
+      "heureDebut": "18:00",
+      "heureFin": "22:00",
+      "prix": 400,
+      "planFormation": "/plan/sync004.pdf",
+      "image": "/photos/sync004.jpeg",
+      "nombreEtoiles": "5",
+      "materiauxRequis": "Ordinateur avec connexion internet, connaissance de base de JavaScript",
+      "sections": [
+        {
+          "titreSection": "Introduction à React Native",
+          "descSection": "Découvrez les bases de React Native",
+          "dateDebutSection": "2024-05-05",
+          "dateFinSection": "2024-05-20",
+          "dureeSection": "16 jours", 
+          "noteCours": "Notes de cours React Native",
+          "videos" : ["intro_react_native.mp4"]
+        },
+        {
+          "titreSection": "Développement d'applications",
+          "descSection": "Construisez des applications avec React Native",
+          "dateDebutSection": "2024-05-21",
+          "dateFinSection": "2024-05-30",
+          "dureeSection": "10 jours", 
+          "noteCours": "Projets React Native",
+          "videos" : ["projets_react_native.mp4"]
+        }
+      ]
+    },
+    {
+      "id": "sync005",
+      "titreCours": "Machine Learning Fundamentals",
+      "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
+      "formateur": "Emily Chen",
+      "adresse": "En ligne",
+      "dateDebutCours": "2024-06-10",
+      "dateFinCors": "2024-07-05",
+      "heureDebut": "19:00",
+      "heureFin": "21:00",
+      "prix": 500,
+      "planFormation": "/plan/sync005.pdf",
+      "image": "/photos/sync005.jpeg",
+      "nombreEtoiles": "4",
+      "materiauxRequis": "Ordinateur avec connexion internet, connaissances en Python",
+      "sections": [
+        {
+          "titreSection": "Introduction au Machine Learning",
+          "descSection": "Comprendre les bases du machine learning",
+          "dateDebutSection": "2024-06-10",
+          "dateFinSection": "2024-06-25",
+          "dureeSection": "16 jours", 
+          "noteCours": "Notes de cours Machine Learning",
+          "videos" : ["intro_ml.mp4"]
+        },
+        {
+          "titreSection": "Projets de Machine Learning",
+          "descSection": "Travaux pratiques sur des projets de machine learning",
+          "dateDebutSection": "2024-06-26",
+          "dateFinSection": "2024-07-05",
+          "dureeSection": "10 jours", 
+          "noteCours": "Projets Machine Learning",
+          "videos" : ["projets_ml1.mp4", "projets_ml2.mp4"]
+        }
+      ]
+    },
+    {
+      "id": "sync006",
+      "titreCours": "Web Development with Django",
+      "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
+      "formateur": "Thomas Anderson",
+      "adresse": "En ligne",
+      "dateDebutCours": "2024-07-01",
+      "dateFinCors": "2024-07-30",
+      "heureDebut": "18:00",
+      "heureFin": "22:00",
+      "prix": 450,
+      "planFormation": "/plan/sync006.pdf",
+      "image": "/photos/sync006.jpeg",
+      "nombreEtoiles": "5",
+      "materiauxRequis": "Ordinateur avec connexion internet, connaissances en Python et HTML/CSS",
+      "sections": [
+        {
+          "titreSection": "Introduction à Django",
+          "descSection": "Apprenez les bases de Django",
+          "dateDebutSection": "2024-07-01",
+          "dateFinSection": "2024-07-15",
+          "dureeSection": "15 jours", 
+          "noteCours": "Notes de cours Django",
+          "videos" : ["intro_django.mp4"]
+        },
+        {
+          "titreSection": "Développement Web avec Django",
+          "descSection": "Construisez des applications web avec Django",
+          "dateDebutSection": "2024-07-16",
+          "dateFinSection": "2024-07-30",
+          "dureeSection": "15 jours", 
+          "noteCours": "Projets Django",
+          "videos" : ["projets_django1.mp4", "projets_django2.mp4"]
+        }
+      ]
+    },
+    {
+      "id": "sync007",
+      "titreCours": "Data Science Essentials",
+      "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
+      "formateur": "John Smith",
+      "adresse": "En ligne",
+      "dateDebutCours": "2024-08-05",
+      "dateFinCors": "2024-08-30",
+      "heureDebut": "19:00",
+      "heureFin": "21:00",
+      "prix": 550,
+      "planFormation": "/plan/sync007.pdf",
+      "image": "/photos/sync007.jpeg",
+      "nombreEtoiles": "4",
+      "materiauxRequis": "Ordinateur avec connexion internet, connaissances en Python",
+      "sections": [
+        {
+          "titreSection": "Introduction à la Science des Données",
+          "descSection": "Comprendre les bases de la science des données",
+          "dateDebutSection": "2024-08-05",
+          "dateFinSection": "2024-08-20",
+          "dureeSection": "16 jours", 
+          "noteCours": "Notes de cours Science des Données",
+          "videos" : ["intro_data_science.mp4"]
+        },
+        {
+          "titreSection": "Projets de Science des Données",
+          "descSection": "Travaux pratiques sur des projets de science des données",
+          "dateDebutSection": "2024-08-21",
+          "dateFinSection": "2024-08-30",
+          "dureeSection": "10 jours", 
+          "noteCours": "Projets Science des Données",
+          "videos" : ["projets_data_science1.mp4", "projets_data_science2.mp4"]
+        }
+      ]
+    },
+    {
+      "id": "sync008",
+      "titreCours": "Cybersecurity Fundamentals",
+      "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
+      "formateur": "David Brown",
+      "adresse": "En ligne",
+      "dateDebutCours": "2024-09-01",
+      "dateFinCors": "2024-09-30",
+      "heureDebut": "18:00",
+      "heureFin": "20:00",
+      "prix": 400,
+      "planFormation": "/plan/sync008.pdf",
+      "image": "/photos/sync008.jpeg",
+      "nombreEtoiles": "5",
+      "materiauxRequis": "Ordinateur avec connexion internet",
+      "sections": [
+        {
+          "titreSection": "Introduction à la Cybersecurité",
+          "descSection": "Apprenez les bases de la cybersécurité",
+          "dateDebutSection": "2024-09-01",
+          "dateFinSection": "2024-09-15",
+          "dureeSection": "15 jours", 
+          "noteCours": "Notes de cours Cybersecurité",
+          "videos" : ["intro_cybersecurity.mp4"]
+        },
+        {
+          "titreSection": "Applications pratiques de la Cybersecurité",
+          "descSection": "Travaux pratiques sur la cybersécurité",
+          "dateDebutSection": "2024-09-16",
+          "dateFinSection": "2024-09-30",
+          "dureeSection": "15 jours", 
+          "noteCours": "Projets Cybersecurité",
+          "videos" : ["projets_cybersecurity1.mp4", "projets_cybersecurity2.mp4"]
+        }
+      ]
+    },
+    {
+      "id": "sync009",
+      "titreCours": "Deep Learning Specialization",
+      "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
+      "formateur": "Rachel Garcia",
+      "adresse": "En ligne",
+      "dateDebutCours": "2024-10-05",
+      "dateFinCors": "2024-10-31",
+      "heureDebut": "19:00",
+      "heureFin": "22:00",
+      "prix": 600,
+      "planFormation": "/plan/sync009.pdf",
+      "image": "/photos/sync009.jpeg",
+      "nombreEtoiles": "5",
+      "materiauxRequis": "Ordinateur avec connexion internet, connaissances en Python",
+      "sections": [
+        {
+          "titreSection": "Introduction au Deep Learning",
+          "descSection": "Comprendre les bases du deep learning",
+          "dateDebutSection": "2024-10-05",
+          "dateFinSection": "2024-10-20",
+          "dureeSection": "16 jours", 
+          "noteCours": "Notes de cours Deep Learning",
+          "videos" : ["intro_deep_learning.mp4"]
+        },
+        {
+          "titreSection": "Projets de Deep Learning",
+          "descSection": "Travaux pratiques sur des projets de deep learning",
+          "dateDebutSection": "2024-10-21",
+          "dateFinSection": "2024-10-31",
+          "dureeSection": "10 jours", 
+          "noteCours": "Projets Deep Learning",
+          "videos" : ["projets_deep_learning1.mp4", "projets_deep_learning2.mp4"]
+        }
+      ]
+    },
+    {
+      "id": "sync010",
+      "titreCours": "Blockchain Fundamentals",
+      "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
+      "formateur": "Daniel Lee",
+      "adresse": "En ligne",
+      "dateDebutCours": "2024-11-01",
+      "dateFinCors": "2024-11-30",
+      "heureDebut": "18:00",
+      "heureFin": "20:00",
+      "prix": 500,
+      "planFormation": "/plan/sync010.pdf",
+      "image": "/photos/sync010.jpeg",
+      "nombreEtoiles": "4",
+      "materiauxRequis": "Ordinateur avec connexion internet",
+      "sections": [
+        {
+          "titreSection": "Introduction à la Blockchain",
+          "descSection": "Comprendre les bases de la blockchain",
+          "dateDebutSection": "2024-11-01",
+          "dateFinSection": "2024-11-15",
+          "dureeSection": "15 jours", 
+          "noteCours": "Notes de cours Blockchain",
+          "videos" : ["intro_blockchain.mp4"]
+        },
+        {
+          "titreSection": "Applications de la Blockchain",
+          "descSection": "Applications pratiques de la blockchain",
+          "dateDebutSection": "2024-11-16",
+          "dateFinSection": "2024-11-30",
+          "dureeSection": "15 jours", 
+          "noteCours": "Projets Blockchain",
+          "videos" : ["projets_blockchain1.mp4", "projets_blockchain2.mp4"]
         }
       ]
     }
-
   ]
 }
