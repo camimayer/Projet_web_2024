@@ -11,6 +11,8 @@
       "heureDebut": "18:00",
       "heureFin": "22:00",
       "isPromotion": true,
+      "datePromotionStart": "2024-02-05",
+      "datePromotionEnd": "2024-03-05",
       "prix": 250,
       "newPrix": 200,
       "planFormation": "/plan/sync001.pdf",
@@ -39,12 +41,14 @@
       "dateFinCors": "2024-04-05",
       "heureDebut": "17:00",
       "heureFin": "21:00",
-      "isPromotion": false,
+      "isPromotion": true,
+      "datePromotionStart": "2024-01-05",
+      "datePromotionEnd": "2024-03-05",
       "prix": 300,
-      "newPrix": null,
+      "newPrix": 200,
       "planFormation": "/plan/sync002.pdf",
       "image": "/photos/sync002.jpeg",
-      "nombreEtoiles": "4",
+      "nombreEtoiles": "5",
       "materiauxRequis": "Ordinateur avec connexion internet",
       "sections": [
         {
@@ -68,10 +72,14 @@
       "dateFinCors": "2024-04-30",
       "heureDebut": "19:00",
       "heureFin": "23:00",
+      "isPromotion": true,
+      "datePromotionStart": "2024-03-05",
+      "datePromotionEnd": "2024-04-05",
       "prix": 350,
+      "newPrix": 250,
       "planFormation": "/plan/sync003.pdf",
       "image": "/photos/sync003.jpeg",
-      "nombreEtoiles": "5",
+      "nombreEtoiles": "4",
       "materiauxRequis": "Ordinateur avec accès internet",
       "sections": [
         {
@@ -104,10 +112,11 @@
       "dateFinCors": "2024-05-30",
       "heureDebut": "18:00",
       "heureFin": "22:00",
+      "isPromotion": false,
       "prix": 400,
       "planFormation": "/plan/sync004.pdf",
       "image": "/photos/sync004.jpeg",
-      "nombreEtoiles": "5",
+      "nombreEtoiles": "4",
       "materiauxRequis": "Ordinateur avec connexion internet, connaissance de base de JavaScript",
       "sections": [
         {
@@ -140,6 +149,7 @@
       "dateFinCors": "2024-07-05",
       "heureDebut": "19:00",
       "heureFin": "21:00",
+      "isPromotion": false,
       "prix": 500,
       "planFormation": "/plan/sync005.pdf",
       "image": "/photos/sync005.jpeg",
@@ -176,10 +186,11 @@
       "dateFinCors": "2024-07-30",
       "heureDebut": "18:00",
       "heureFin": "22:00",
+      "isPromotion": false,
       "prix": 450,
       "planFormation": "/plan/sync006.pdf",
       "image": "/photos/sync006.jpeg",
-      "nombreEtoiles": "5",
+      "nombreEtoiles": "3",
       "materiauxRequis": "Ordinateur avec connexion internet, connaissances en Python et HTML/CSS",
       "sections": [
         {
@@ -212,10 +223,11 @@
       "dateFinCors": "2024-08-30",
       "heureDebut": "19:00",
       "heureFin": "21:00",
+      "isPromotion": false,
       "prix": 550,
       "planFormation": "/plan/sync007.pdf",
       "image": "/photos/sync007.jpeg",
-      "nombreEtoiles": "4",
+      "nombreEtoiles": "3",
       "materiauxRequis": "Ordinateur avec connexion internet, connaissances en Python",
       "sections": [
         {
@@ -248,10 +260,11 @@
       "dateFinCors": "2024-09-30",
       "heureDebut": "18:00",
       "heureFin": "20:00",
+      "isPromotion": false,
       "prix": 400,
       "planFormation": "/plan/sync008.pdf",
       "image": "/photos/sync008.jpeg",
-      "nombreEtoiles": "5",
+      "nombreEtoiles": "3",
       "materiauxRequis": "Ordinateur avec connexion internet",
       "sections": [
         {
@@ -284,10 +297,11 @@
       "dateFinCors": "2024-10-31",
       "heureDebut": "19:00",
       "heureFin": "22:00",
+      "isPromotion": false,
       "prix": 600,
       "planFormation": "/plan/sync009.pdf",
       "image": "/photos/sync009.jpeg",
-      "nombreEtoiles": "5",
+      "nombreEtoiles": "3",
       "materiauxRequis": "Ordinateur avec connexion internet, connaissances en Python",
       "sections": [
         {
@@ -320,10 +334,11 @@
       "dateFinCors": "2024-11-30",
       "heureDebut": "18:00",
       "heureFin": "20:00",
+      "isPromotion": false,
       "prix": 500,
       "planFormation": "/plan/sync010.pdf",
       "image": "/photos/sync010.jpeg",
-      "nombreEtoiles": "4",
+      "nombreEtoiles": "3",
       "materiauxRequis": "Ordinateur avec connexion internet",
       "sections": [
         {
