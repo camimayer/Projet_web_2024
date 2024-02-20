@@ -1,454 +1,471 @@
 {
-    "Cours": [
-      {
-        "id": "async001",
-        "titreCours": "Java FrontEnd pour débutants",
-        "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
-        "formateur": "Richard Pineault",
-        "adresse": "On ligne",
-        "dateDebutCours": "",
-        "dateFinCors": "",
-        "heureDebut": "",
-        "heureFin": "",
-        "isPromotion": true,
-        "datePromotionStart": "2024-04-05",
-        "datePromotionEnd": "2024-05-05",
-        "prix": 200,
-        "newPrix": 150,
-        "planFormation": "/plan/async001.pdf",
-        "image": "/photos/async001.jpeg",
-        "nombreEtoiles": "5",
-        "materiauxRequis": "L'ordinateur avec camera, l'internet haute vitesse",
-        "sections": [
-          {
-            "titreSection": "Section 1",
-            "descSection": "Description de la section 1",
-            "dateDebutSection": "",
-            "dateFinSection": "",
-            "dureeSection": 35, 
-            "noteCours": "Notes de cours",
-            "videos" : [
-              {
-                  "titre" : "Les bases fondamentale d'un site Web",
-                  "description" : "Explorer les concepts de bases HTML",
-                  "url" : "",
-                  "évaluation" : 4.5,
-                  "temps" : "25"
-              },
-              {
-                  "titre" : "Coté maquillage du site Web",
-                  "description" : "Explorer les concepts de bases de CSS",
-                  "url" : "",
-                  "évaluation" : 4,
-                  "temps" : "25"
-              },
-              {
-                  "titre" : "Qu'est-ce que JavaScript ?",
-                  "description" : "Explorer les concepts de bases JavaScript",
-                  "url" : "",
-                  "évaluation" : 4.7,
-                  "temps" : "25"
-              }
-              
-            ]
-          }
-        ]
-      },
-      {
-        "id": "async002",
-        "titreCours": "Python pour Développeurs",
-        "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
-        "formateur": "Sophie Martin",
-        "adresse": "En ligne",
-        "dateDebutCours": "",
-        "dateFinCors": "",
-        "heureDebut": "",
-        "heureFin": "",
-        "isPromotion": true,
-        "datePromotionStart": "2024-05-05",
-        "datePromotionEnd": "2024-06-05",
-        "prix": 450,
-        "newPrix": 350,
-        "planFormation": "/plan/async002.pdf",
-        "image": "/photos/async002.jpeg",
-        "nombreEtoiles": "5",
-        "materiauxRequis": "Ordinateur avec connexion internet",
-        "sections": [
-          {
-            "titreSection": "Introduction à Python",
-            "descSection": "Description de la section 1",
-            "dateDebutSection": "",
-            "dateFinSection": "",
-            "dureeSection": 30, 
-            "noteCours": "Notes de cours",
-            "videos" : [
-              {
-                  "titre" : "Les bases de Python",
-                  "description" : "Découvrir les fondamentaux de Python",
-                  "url" : "/videos/base_python.mp4",
-                  "évaluation" : 4.2,
-                  "temps" : "30"
-              },
-              {
-                  "titre" : "Structures de données en Python",
-                  "description" : "Explorer les structures de données en Python",
-                  "url" : "/videos/data_structures_python.mp4",
-                  "évaluation" : 4.4,
-                  "temps" : "30"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "async003",
-        "titreCours": "Développement Web avec React",
-        "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
-        "formateur": "Antoine Dubois",
-        "adresse": "En ligne",
-        "dateDebutCours": "",
-        "dateFinCors": "",
-        "heureDebut": "",
-        "heureFin": "",
-        "isPromotion": true,
-        "datePromotionStart": "2024-07-05",
-        "datePromotionEnd": "2024-08-05",
-        "prix": 350,
-        "newPrix": 200,
-        "planFormation": "/plan/async003.pdf",
-        "image": "/photos/async003.jpeg",
-        "nombreEtoiles": "4",
-        "materiauxRequis": "Ordinateur avec connexion internet",
-        "sections": [
-          {
-            "titreSection": "Introduction à React",
-            "descSection": "Description de la section 1",
-            "dateDebutSection": "",
-            "dateFinSection": "",
-            "dureeSection": 25, 
-            "noteCours": "Notes de cours",
-            "videos" : [
-              {
-                  "titre" : "Les bases de React",
-                  "description" : "Découvrir les fondamentaux de React",
-                  "url" : "/videos/base_react.mp4",
-                  "évaluation" : 4.7,
-                  "temps" : "20"
-              },
-              {
-                  "titre" : "Gestion d'état avec React",
-                  "description" : "Apprendre à gérer l'état avec React",
-                  "url" : "/videos/state_management_react.mp4",
-                  "évaluation" : 4.6,
-                  "temps" : "20"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "async004",
-        "titreCours": "Machine Learning for Beginners",
-        "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
-        "formateur": "Emily Chen",
-        "adresse": "En ligne",
-        "dateDebutCours": "",
-        "dateFinCors": "",
-        "heureDebut": "",
-        "heureFin": "",
-        "isPromotion": false,
-        "prix": 400,
-        "planFormation": "/plan/async004.pdf",
-        "image": "/photos/async004.jpeg",
-        "nombreEtoiles": "4",
-        "materiauxRequis": "Ordinateur avec connexion internet",
-        "sections": [
-          {
-            "titreSection": "Introduction au Machine Learning",
-            "descSection": "Description de la section 1",
-            "dateDebutSection": "2024-08-01",
-            "dateFinSection": "2024-08-30",
-            "dureeSection": 30, 
-            "noteCours": "Notes de cours",
-            "videos" : [
-              {
-                  "titre" : "Les bases du Machine Learning",
-                  "description" : "Découvrir les bases du machine learning",
-                  "url" : "/videos/base_ml.mp4",
-                  "évaluation" : 4.3,
-                  "temps" : "25"
-              },
-              {
-                  "titre" : "Modèles de Machine Learning",
-                  "description" : "Explorer les modèles de machine learning",
-                  "url" : "/videos/ml_models.mp4",
-                  "évaluation" : 4.5,
-                  "temps" : "25"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "async005",
-        "titreCours": "Cybersecurity Essentials",
-        "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
-        "formateur": "David Brown",
-        "adresse": "En ligne",
-        "dateDebutCours": "2024-09-15",
-        "dateFinCors": "2024-10-15",
-        "heureDebut": "",
-        "heureFin": "",
-        "isPromotion": false,
-        "prix": 350,
-        "planFormation": "/plan/async005.pdf",
-        "image": "/photos/async005.jpeg",
-        "nombreEtoiles": "3",
-        "materiauxRequis": "Ordinateur avec connexion internet",
-        "sections": [
-          {
-            "titreSection": "Introduction à la Cybersecurité",
-            "descSection": "Description de la section 1",
-            "dateDebutSection": "2024-09-15",
-            "dateFinSection": "2024-10-15",
-            "dureeSection": 30, 
-            "noteCours": "Notes de cours",
-            "videos" : [
-              {
-                  "titre" : "Fondamentaux de la Cybersecurité",
-                  "description" : "Apprendre les bases de la cybersécurité",
-                  "url" : "/videos/base_cybersecurity.mp4",
-                  "évaluation" : 4.8,
-                  "temps" : "25"
-              },
-              {
-                  "titre" : "Sécurité des réseaux",
-                  "description" : "Explorer la sécurité des réseaux",
-                  "url" : "/videos/network_security.mp4",
-                  "évaluation" : 4.6,
-                  "temps" : "25"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "async006",
-        "titreCours": "Data Science Foundations",
-        "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
-        "formateur": "John Smith",
-        "adresse": "En ligne",
-        "dateDebutCours": "",
-        "dateFinCors": "",
-        "heureDebut": "",
-        "heureFin": "",
-        "isPromotion": false,
-        "prix": 450,
-        "planFormation": "/plan/async006.pdf",
-        "image": "/photos/async006.jpeg",
-        "nombreEtoiles": "4",
-        "materiauxRequis": "Ordinateur avec connexion internet",
-        "sections": [
-          {
-            "titreSection": "Introduction à la Science des Données",
-            "descSection": "Description de la section 1",
-            "dateDebutSection": "",
-            "dateFinSection": "",
-            "dureeSection": 30, 
-            "noteCours": "Notes de cours",
-            "videos" : [
-              {
-                  "titre" : "Les bases de la Science des Données",
-                  "description" : "Découvrir les bases de la science des données",
-                  "url" : "/videos/base_data_science.mp4",
-                  "évaluation" : 4.5,
-                  "temps" : "25"
-              },
-              {
-                  "titre" : "Analyse de données",
-                  "description" : "Explorer l'analyse de données",
-                  "url" : "/videos/data_analysis.mp4",
-                  "évaluation" : 4.7,
-                  "temps" : "25"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "async007",
-        "titreCours": "Vue.js Essentials",
-        "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
-        "formateur": "Laura Martinez",
-        "adresse": "En ligne",
-        "dateDebutCours": "",
-        "dateFinCors": "",
-        "heureDebut": "",
-        "heureFin": "",
-        "isPromotion": false,
-        "prix": 400,
-        "planFormation": "/plan/async007.pdf",
-        "image": "/photos/async007.jpeg",
-        "nombreEtoiles": "3",
-        "materiauxRequis": "Ordinateur avec connexion internet",
-        "sections": [
-          {
-            "titreSection": "Introduction à Vue.js",
-            "descSection": "Description de la section 1",
-            "dateDebutSection": "",
-            "dateFinSection": "",
-            "dureeSection": 30, 
-            "noteCours": "Notes de cours",
-            "videos" : [
-              {
-                  "titre" : "Les bases de Vue.js",
-                  "description" : "Découvrir les bases de Vue.js",
-                  "url" : "/videos/base_vuejs.mp4",
-                  "évaluation" : 4.6,
-                  "temps" : "25"
-              },
-              {
-                  "titre" : "Composants Vue.js",
-                  "description" : "Explorer les composants de Vue.js",
-                  "url" : "/videos/vuejs_components.mp4",
-                  "évaluation" : 4.8,
-                  "temps" : "25"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "async008",
-        "titreCours": "Cloud Computing Basics",
-        "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
-        "formateur": "Sarah Johnson",
-        "adresse": "En ligne",
-        "dateDebutCours": "",
-        "dateFinCors": "",
-        "heureDebut": "",
-        "heureFin": "",
-        "isPromotion": false,
-        "prix": 350,
-        "planFormation": "/plan/async008.pdf",
-        "image": "/photos/async008.jpeg",
-        "nombreEtoiles": "3",
-        "materiauxRequis": "Ordinateur avec connexion internet",
-        "sections": [
-          {
-            "titreSection": "Introduction au Cloud Computing",
-            "descSection": "Description de la section 1",
-            "dateDebutSection": "",
-            "dateFinSection": "",
-            "dureeSection": 30, 
-            "noteCours": "Notes de cours",
-            "videos" : [
-              {
-                  "titre" : "Concepts fondamentaux du Cloud Computing",
-                  "description" : "Découvrir les concepts fondamentaux du cloud computing",
-                  "url" : "/videos/cloud_computing_basics.mp4",
-                  "évaluation" : 4.6,
-                  "temps" : "25"
-              },
-              {
-                  "titre" : "Services Cloud populaires",
-                  "description" : "Explorer les services cloud populaires",
-                  "url" : "/videos/popular_cloud_services.mp4",
-                  "évaluation" : 4.7,
-                  "temps" : "25"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "async009",
-        "titreCours": "Java Enterprise Edition",
-        "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
-        "formateur": "Michael Brown",
-        "adresse": "En ligne",
-        "dateDebutCours": "",
-        "dateFinCors": "",
-        "heureDebut": "",
-        "heureFin": "",
-        "isPromotion": false,
-        "prix": 500,
-        "planFormation": "/plan/async009.pdf",
-        "image": "/photos/async009.jpeg",
-        "nombreEtoiles": "4",
-        "materiauxRequis": "Ordinateur avec connexion internet",
-        "sections": [
-          {
-            "titreSection": "Introduction à Java EE",
-            "descSection": "Description de la section 1",
-            "dateDebutSection": "",
-            "dateFinSection": "",
-            "dureeSection": 30, 
-            "noteCours": "Notes de cours",
-            "videos" : [
-              {
-                  "titre" : "Principes de base de Java EE",
-                  "description" : "Découvrir les principes de base de Java EE",
-                  "url" : "/videos/java_ee_basics.mp4",
-                  "évaluation" : 4.5,
-                  "temps" : "25"
-              },
-              {
-                  "titre" : "Développement d'applications avec Java EE",
-                  "description" : "Explorer le développement d'applications avec Java EE",
-                  "url" : "/videos/java_ee_application_dev.mp4",
-                  "évaluation" : 4.8,
-                  "temps" : "25"
-              }
-            ]
-          }
-        ]
-      }, 
-      {
-        "id": "async010",
-        "titreCours": "Full Stack Development with Node.js",
-        "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
-        "formateur": "Jessica Thompson",
-        "adresse": "En ligne",
-        "dateDebutCours": "",
-        "dateFinCors": "",
-        "heureDebut": "",
-        "heureFin": "",
-        "isPromotion": false,
-        "prix": 450,
-        "planFormation": "/plan/async010.pdf",
-        "image": "/photos/async010.jpeg",
-        "nombreEtoiles": "3",
-        "materiauxRequis": "Ordinateur avec connexion internet",
-        "sections": [
-          {
-            "titreSection": "Introduction à Node.js",
-            "descSection": "Description de la section 1",
-            "dateDebutSection": "",
-            "dateFinSection": "",
-            "dureeSection": 30, 
-            "noteCours": "Notes de cours",
-            "videos" : [
-              {
-                  "titre" : "Les bases de Node.js",
-                  "description" : "Découvrir les bases de Node.js",
-                  "url" : "/videos/base_nodejs.mp4",
-                  "évaluation" : 4.6,
-                  "temps" : "25"
-              },
-              {
-                  "titre" : "Développement Full Stack avec Node.js",
-                  "description" : "Explorer le développement full stack avec Node.js",
-                  "url" : "/videos/full_stack_nodejs.mp4",
-                  "évaluation" : 4.7,
-                  "temps" : "25"
-              }
-            ]
-          }
-        ]
-      }
-  
-  
-    ]
-  }
-  
+  "Cours": [
+    {
+      "id": "async001",
+      "titreCours": "Java FrontEnd pour débutants",
+      "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
+      "formateur": "Richard Pineault",
+      "adresse": "On ligne",
+      "dateDebutCours": "",
+      "dateFinCors": "",
+      "heureDebut": "",
+      "heureFin": "",
+      "isPromotion": true,
+      "datePromotionStart": "2024-04-05",
+      "datePromotionEnd": "2024-05-05",
+      "prix": 200,
+      "newPrix": 150,
+      "planFormation": "/plan/async001.pdf",
+      "image": "/photos/async001.jpeg",
+      "nombreEtoiles": "5",
+      "materiauxRequis": "L'ordinateur avec camera, l'internet haute vitesse",
+      "sections": [
+        {
+          "titreSection": "Section 1",
+          "descSection": "Description de la section 1",
+          "dateDebutSection": "",
+          "dateFinSection": "",
+          "dureeSection": 35,
+          "noteCoursSection": "/notesCours/Notes de cours.pdf",
+          "videos": [
+            {
+              "titre": "Les bases fondamentale d'un site Web",
+              "description": "Explorer les concepts de bases HTML",
+              "url": "/videos/fondamentaleSiteWeb.mp4",
+              "noteCoursVideo": "/notesCours/fondamentaleSiteWeb.pdf",
+              "temps": "25"
+            },
+            {
+              "titre": "Coté maquillage du site Web",
+              "description": "Explorer les concepts de bases de CSS",
+              "url": "/videos/maquillagedusiteWeb.mp4",
+              "noteCoursVideo": "/notesCours/maquillagedusiteWeb.pdf",
+              "temps": "25"
+            },
+            {
+              "titre": "Qu'est-ce que JavaScript ?",
+              "description": "Explorer les concepts de bases JavaScript",
+              "url": "/videos/conceptsBasesJavaScript.mp4",
+              "noteCoursVideo": "/notesCours/conceptsBasesJavaScript.pdf",
+              "temps": "25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "async002",
+      "titreCours": "Python pour Développeurs",
+      "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
+      "formateur": "Sophie Martin",
+      "adresse": "En ligne",
+      "dateDebutCours": "",
+      "dateFinCors": "",
+      "heureDebut": "",
+      "heureFin": "",
+      "isPromotion": true,
+      "datePromotionStart": "2024-05-05",
+      "datePromotionEnd": "2024-06-05",
+      "prix": 450,
+      "newPrix": 350,
+      "planFormation": "/plan/async002.pdf",
+      "image": "/photos/async002.jpeg",
+      "nombreEtoiles": "5",
+      "materiauxRequis": "Ordinateur avec connexion internet",
+      "sections": [
+        {
+          "titreSection": "Introduction à Python",
+          "descSection": "Description de la section 1",
+          "dateDebutSection": "",
+          "dateFinSection": "",
+          "dureeSection": 30,
+          "noteCoursSection": "/notesCours/Notes de cours.pdf",
+          "videos": [
+            {
+              "titre": "Les bases de Python",
+              "description": "Découvrir les fondamentaux de Python",
+              "url": "/videos/base_python.mp4",
+              "noteCoursVideo": "/notesCours/base_python.pdf",
+              "temps": "30"
+            },
+            {
+              "titre": "Structures de données en Python",
+              "description": "Explorer les structures de données en Python",
+              "url": "/videos/data_structures_python.mp4",
+              "noteCoursVideo": "/notesCours/data_structures_python.pdf",
+              "temps": "30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "async003",
+      "titreCours": "Développement Web avec React",
+      "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
+      "formateur": "Antoine Dubois",
+      "adresse": "En ligne",
+      "dateDebutCours": "",
+      "dateFinCors": "",
+      "heureDebut": "",
+      "heureFin": "",
+      "isPromotion": true,
+      "datePromotionStart": "2024-07-05",
+      "datePromotionEnd": "2024-08-05",
+      "prix": 350,
+      "newPrix": 200,
+      "planFormation": "/plan/async003.pdf",
+      "image": "/photos/async003.jpeg",
+      "nombreEtoiles": "4",
+      "materiauxRequis": "Ordinateur avec connexion internet",
+      "sections": [
+        {
+          "titreSection": "Introduction à React",
+          "descSection": "Description de la section 1",
+          "dateDebutSection": "",
+          "dateFinSection": "",
+          "dureeSection": 25,
+          "noteCoursSection": "/notesCours/Notes de cours.pdf",
+          "videos": [
+            {
+              "titre": "Les bases de React",
+              "description": "Découvrir les fondamentaux de React",
+              "url": "/videos/base_react.mp4",
+              "noteCoursVideo": "/notesCours/base_react.pdf",
+              "temps": "20"
+            },
+            {
+              "titre": "Gestion d'état avec React",
+              "description": "Apprendre à gérer l'état avec React",
+              "url": "/videos/state_management_react.mp4",
+              "noteCoursVideo": "/notesCours/state_management_react.pdf",
+              "temps": "20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "async004",
+      "titreCours": "Machine Learning for Beginners",
+      "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
+      "formateur": "Emily Chen",
+      "adresse": "En ligne",
+      "dateDebutCours": "",
+      "dateFinCors": "",
+      "heureDebut": "",
+      "heureFin": "",
+      "isPromotion": false,
+      "datePromotionStart": "",
+      "datePromotionEnd": "",
+      "prix": 400,
+      "newPrix": 400,
+      "planFormation": "/plan/async004.pdf",
+      "image": "/photos/async004.jpeg",
+      "nombreEtoiles": "4",
+      "materiauxRequis": "Ordinateur avec connexion internet",
+      "sections": [
+        {
+          "titreSection": "Introduction au Machine Learning",
+          "descSection": "Description de la section 1",
+          "dateDebutSection": "2024-08-01",
+          "dateFinSection": "2024-08-30",
+          "dureeSection": 30,
+          "noteCoursSection": "/notesCours/Notes de cours.pdf",
+          "videos": [
+            {
+              "titre": "Les bases du Machine Learning",
+              "description": "Découvrir les bases du machine learning",
+              "url": "/videos/base_ml.mp4",
+              "noteCoursVideo": "/notesCours/base_ml.pdf",
+              "temps": "25"
+            },
+            {
+              "titre": "Modèles de Machine Learning",
+              "description": "Explorer les modèles de machine learning",
+              "url": "/videos/ml_models.mp4",
+              "noteCoursVideo": "/notesCours/ml_models.pdf",
+              "temps": "25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "async005",
+      "titreCours": "Cybersecurity Essentials",
+      "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
+      "formateur": "David Brown",
+      "adresse": "En ligne",
+      "dateDebutCours": "2024-09-15",
+      "dateFinCors": "2024-10-15",
+      "heureDebut": "",
+      "heureFin": "",
+      "isPromotion": false,
+      "datePromotionStart": "",
+      "datePromotionEnd": "",
+      "prix": 350,
+      "newPrix": 350,
+      "planFormation": "/plan/async005.pdf",
+      "image": "/photos/async005.jpeg",
+      "nombreEtoiles": "3",
+      "materiauxRequis": "Ordinateur avec connexion internet",
+      "sections": [
+        {
+          "titreSection": "Introduction à la Cybersecurité",
+          "descSection": "Description de la section 1",
+          "dateDebutSection": "2024-09-15",
+          "dateFinSection": "2024-10-15",
+          "dureeSection": 30,
+          "noteCoursSection": "/notesCours/Notes de cours.pdf",
+          "videos": [
+            {
+              "titre": "Fondamentaux de la Cybersecurité",
+              "description": "Apprendre les bases de la cybersécurité",
+              "url": "/videos/base_cybersecurity.mp4",
+              "noteCoursVideo": "/notesCours/base_cybersecurity.pdf",
+              "temps": "25"
+            },
+            {
+              "titre": "Sécurité des réseaux",
+              "description": "Explorer la sécurité des réseaux",
+              "url": "/videos/network_security.mp4",
+              "noteCoursVideo": "/notesCours/network_security.pdf",
+              "temps": "25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "async006",
+      "titreCours": "Data Science Foundations",
+      "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
+      "formateur": "John Smith",
+      "adresse": "En ligne",
+      "dateDebutCours": "",
+      "dateFinCors": "",
+      "heureDebut": "",
+      "heureFin": "",
+      "isPromotion": false,
+      "datePromotionStart": "",
+      "datePromotionEnd": "",
+      "prix": 450,
+      "newPrix": 450,
+      "planFormation": "/plan/async006.pdf",
+      "image": "/photos/async006.jpeg",
+      "nombreEtoiles": "4",
+      "materiauxRequis": "Ordinateur avec connexion internet",
+      "sections": [
+        {
+          "titreSection": "Introduction à la Science des Données",
+          "descSection": "Description de la section 1",
+          "dateDebutSection": "",
+          "dateFinSection": "",
+          "dureeSection": 30,
+          "noteCoursSection": "/notesCours/Notes de cours.pdf",
+          "videos": [
+            {
+              "titre": "Les bases de la Science des Données",
+              "description": "Découvrir les bases de la science des données",
+              "url": "/videos/base_data_science.mp4",
+              "noteCoursVideo": "/notesCours/base_data_science.pdf",
+              "temps": "25"
+            },
+            {
+              "titre": "Analyse de données",
+              "description": "Explorer l'analyse de données",
+              "url": "/videos/data_analysis.mp4",
+              "noteCoursVideo": "/notesCours/data_analysis.pdf",
+              "temps": "25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "async007",
+      "titreCours": "Vue.js Essentials",
+      "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
+      "formateur": "Laura Martinez",
+      "adresse": "En ligne",
+      "dateDebutCours": "",
+      "dateFinCors": "",
+      "heureDebut": "",
+      "heureFin": "",
+      "isPromotion": false,
+      "datePromotionStart": "",
+      "datePromotionEnd": "",
+      "prix": 400,
+      "newPrix": 400,
+      "planFormation": "/plan/async007.pdf",
+      "image": "/photos/async007.jpeg",
+      "nombreEtoiles": "3",
+      "materiauxRequis": "Ordinateur avec connexion internet",
+      "sections": [
+        {
+          "titreSection": "Introduction à Vue.js",
+          "descSection": "Description de la section 1",
+          "dateDebutSection": "",
+          "dateFinSection": "",
+          "dureeSection": 30,
+          "noteCoursSection": "/notesCours/Notes de cours.pdf",
+          "videos": [
+            {
+              "titre": "Les bases de Vue.js",
+              "description": "Découvrir les bases de Vue.js",
+              "url": "/videos/base_vuejs.mp4",
+              "noteCoursVideo": "/notesCours/base_vuejs.pdf",
+              "temps": "25"
+            },
+            {
+              "titre": "Composants Vue.js",
+              "description": "Explorer les composants de Vue.js",
+              "url": "/videos/vuejs_components.mp4",
+              "noteCoursVideo": "/notesCours/vuejs_components.pdf",
+              "temps": "25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "async008",
+      "titreCours": "Cloud Computing Basics",
+      "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
+      "formateur": "Sarah Johnson",
+      "adresse": "En ligne",
+      "dateDebutCours": "",
+      "dateFinCors": "",
+      "heureDebut": "",
+      "heureFin": "",
+      "isPromotion": false,
+      "datePromotionStart": "",
+      "datePromotionEnd": "",
+      "prix": 350,
+      "newPrix": 350,
+      "planFormation": "/plan/async008.pdf",
+      "image": "/photos/async008.jpeg",
+      "nombreEtoiles": "3",
+      "materiauxRequis": "Ordinateur avec connexion internet",
+      "sections": [
+        {
+          "titreSection": "Introduction au Cloud Computing",
+          "descSection": "Description de la section 1",
+          "dateDebutSection": "",
+          "dateFinSection": "",
+          "dureeSection": 30,
+          "noteCoursSection": "/notesCours/Notes de cours.pdf",
+          "videos": [
+            {
+              "titre": "Concepts fondamentaux du Cloud Computing",
+              "description": "Découvrir les concepts fondamentaux du cloud computing",
+              "url": "/videos/cloud_computing_basics.mp4",
+              "noteCoursVideo": "/notesCours/cloud_computing_basics.pdf",
+              "temps": "25"
+            },
+            {
+              "titre": "Services Cloud populaires",
+              "description": "Explorer les services cloud populaires",
+              "url": "/videos/popular_cloud_services.mp4",
+              "noteCoursVideo": "/notesCours/popular_cloud_services.pdf",
+              "temps": "25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "async009",
+      "titreCours": "Java Enterprise Edition",
+      "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
+      "formateur": "Michael Brown",
+      "adresse": "En ligne",
+      "dateDebutCours": "",
+      "dateFinCors": "",
+      "heureDebut": "",
+      "heureFin": "",
+      "isPromotion": false,
+      "datePromotionStart": "",
+      "datePromotionEnd": "",
+      "prix": 500,
+      "newPrix": 500,
+      "planFormation": "/plan/async009.pdf",
+      "image": "/photos/async009.jpeg",
+      "nombreEtoiles": "4",
+      "materiauxRequis": "Ordinateur avec connexion internet",
+      "sections": [
+        {
+          "titreSection": "Introduction à Java EE",
+          "descSection": "Description de la section 1",
+          "dateDebutSection": "",
+          "dateFinSection": "",
+          "dureeSection": 30,
+          "noteCoursSection": "/notesCours/Notes de cours.pdf",
+          "videos": [
+            {
+              "titre": "Principes de base de Java EE",
+              "description": "Découvrir les principes de base de Java EE",
+              "url": "/videos/java_ee_basics.mp4",
+              "noteCoursVideo": "/notesCours/java_ee_basics.pdf",
+              "temps": "25"
+            },
+            {
+              "titre": "Développement d'applications avec Java EE",
+              "description": "Explorer le développement d'applications avec Java EE",
+              "url": "/videos/java_ee_application_dev.mp4",
+              "noteCoursVideo": "/notesCours/java_ee_application_dev.pdf",
+              "temps": "25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "async010",
+      "titreCours": "Full Stack Development with Node.js",
+      "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
+      "formateur": "Jessica Thompson",
+      "adresse": "En ligne",
+      "dateDebutCours": "",
+      "dateFinCors": "",
+      "heureDebut": "",
+      "heureFin": "",
+      "isPromotion": false,
+      "datePromotionStart": "",
+      "datePromotionEnd": "",
+      "prix": 450,
+      "newPrix": 450,
+      "planFormation": "/plan/async010.pdf",
+      "image": "/photos/async010.jpeg",
+      "nombreEtoiles": "3",
+      "materiauxRequis": "Ordinateur avec connexion internet",
+      "sections": [
+        {
+          "titreSection": "Introduction à Node.js",
+          "descSection": "Description de la section 1",
+          "dateDebutSection": "",
+          "dateFinSection": "",
+          "dureeSection": 30,
+          "noteCoursSection": "/notesCours/Notes de cours.pdf",
+          "videos": [
+            {
+              "titre": "Les bases de Node.js",
+              "description": "Découvrir les bases de Node.js",
+              "url": "/videos/base_nodejs.mp4",
+              "noteCoursVideo": "/notesCours/base_nodejs.pdf",
+              "temps": "25"
+            },
+            {
+              "titre": "Développement Full Stack avec Node.js",
+              "description": "Explorer le développement full stack avec Node.js",
+              "url": "/videos/full_stack_nodejs.mp4",
+              "noteCoursVideo": "/notesCours/full_stack_nodejs.pdf",
+              "temps": "25"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

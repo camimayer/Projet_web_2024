@@ -26,8 +26,7 @@
           "dateDebutSection": "2024-03-04",
           "dateFinSection": "2024-03-29",
           "dureeSection": "26 jours", 
-          "noteCours": "Notes de cours",
-          "videos" : []
+          "noteCoursSection": "/notesCours/Notes de cours.pdf"
         }
       ]
     },
@@ -57,8 +56,7 @@
           "dateDebutSection": "2024-03-10",
           "dateFinSection": "2024-03-25",
           "dureeSection": "16 jours", 
-          "noteCours": "Notes de cours Python",
-          "videos" : ["video1.mp4", "video2.mp4"]
+          "noteCoursSection": "/notesCours/Notes de cours Python.pdf"
         }
       ]
     },
@@ -88,8 +86,7 @@
           "dateDebutSection": "2024-04-01",
           "dateFinSection": "2024-04-15",
           "dureeSection": "15 jours", 
-          "noteCours": "Notes de cours JavaScript",
-          "videos" : ["intro_js.mp4"]
+          "noteCoursSection": "/notesCours/Notes de cours JavaScript.pdf"
         },
         {
           "titreSection": "Projets JavaScript",
@@ -97,8 +94,7 @@
           "dateDebutSection": "2024-04-16",
           "dateFinSection": "2024-04-30",
           "dureeSection": "15 jours", 
-          "noteCours": "Projets JavaScript",
-          "videos" : ["projets_js1.mp4", "projets_js2.mp4"]
+          "noteCoursSection": "/notesCours/Projets JavaScript.pdf"
         }
       ]
     },
@@ -113,7 +109,10 @@
       "heureDebut": "18:00",
       "heureFin": "22:00",
       "isPromotion": false,
+      "datePromotionStart": "",
+      "datePromotionEnd": "",
       "prix": 400,
+      "newPrix": 400,
       "planFormation": "/plan/sync004.pdf",
       "image": "/photos/sync004.jpeg",
       "nombreEtoiles": "4",
@@ -125,8 +124,7 @@
           "dateDebutSection": "2024-05-05",
           "dateFinSection": "2024-05-20",
           "dureeSection": "16 jours", 
-          "noteCours": "Notes de cours React Native",
-          "videos" : ["intro_react_native.mp4"]
+          "noteCoursSection": "/notesCours/Notes de cours React Native.pdf"
         },
         {
           "titreSection": "Développement d'applications",
@@ -134,8 +132,7 @@
           "dateDebutSection": "2024-05-21",
           "dateFinSection": "2024-05-30",
           "dureeSection": "10 jours", 
-          "noteCours": "Projets React Native",
-          "videos" : ["projets_react_native.mp4"]
+          "noteCoursSection": "/notesCours/Projets React Native.pdf"
         }
       ]
     },
@@ -150,7 +147,10 @@
       "heureDebut": "19:00",
       "heureFin": "21:00",
       "isPromotion": false,
+      "datePromotionStart": "",
+      "datePromotionEnd": "",
       "prix": 500,
+      "newPrix": 500,
       "planFormation": "/plan/sync005.pdf",
       "image": "/photos/sync005.jpeg",
       "nombreEtoiles": "4",
@@ -162,8 +162,7 @@
           "dateDebutSection": "2024-06-10",
           "dateFinSection": "2024-06-25",
           "dureeSection": "16 jours", 
-          "noteCours": "Notes de cours Machine Learning",
-          "videos" : ["intro_ml.mp4"]
+          "noteCoursSection": "/notesCours/Notes de cours Machine Learning.pdf"
         },
         {
           "titreSection": "Projets de Machine Learning",
@@ -171,8 +170,7 @@
           "dateDebutSection": "2024-06-26",
           "dateFinSection": "2024-07-05",
           "dureeSection": "10 jours", 
-          "noteCours": "Projets Machine Learning",
-          "videos" : ["projets_ml1.mp4", "projets_ml2.mp4"]
+          "noteCoursSection": "/notesCours/Projets Machine Learning.pdf"
         }
       ]
     },
@@ -187,7 +185,10 @@
       "heureDebut": "18:00",
       "heureFin": "22:00",
       "isPromotion": false,
+      "datePromotionStart": "",
+      "datePromotionEnd": "",
       "prix": 450,
+      "newPrix": 450,
       "planFormation": "/plan/sync006.pdf",
       "image": "/photos/sync006.jpeg",
       "nombreEtoiles": "3",
@@ -199,8 +200,7 @@
           "dateDebutSection": "2024-07-01",
           "dateFinSection": "2024-07-15",
           "dureeSection": "15 jours", 
-          "noteCours": "Notes de cours Django",
-          "videos" : ["intro_django.mp4"]
+          "noteCoursSection": "/notesCours/Notes de cours Django.pdf"
         },
         {
           "titreSection": "Développement Web avec Django",
@@ -208,8 +208,7 @@
           "dateDebutSection": "2024-07-16",
           "dateFinSection": "2024-07-30",
           "dureeSection": "15 jours", 
-          "noteCours": "Projets Django",
-          "videos" : ["projets_django1.mp4", "projets_django2.mp4"]
+          "noteCoursSection": "/notesCours/Projets Django.pdf"
         }
       ]
     },
@@ -218,13 +217,16 @@
       "titreCours": "Data Science Essentials",
       "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
       "formateur": "John Smith",
-      "adresse": "En ligne",
+      "adresse": "1231 Saint-Catherine St W, Montreal, QC H3G 1P5",
       "dateDebutCours": "2024-08-05",
       "dateFinCors": "2024-08-30",
       "heureDebut": "19:00",
       "heureFin": "21:00",
       "isPromotion": false,
+      "datePromotionStart": "",
+      "datePromotionEnd": "",
       "prix": 550,
+      "newPrix": 550,
       "planFormation": "/plan/sync007.pdf",
       "image": "/photos/sync007.jpeg",
       "nombreEtoiles": "3",
@@ -236,8 +238,7 @@
           "dateDebutSection": "2024-08-05",
           "dateFinSection": "2024-08-20",
           "dureeSection": "16 jours", 
-          "noteCours": "Notes de cours Science des Données",
-          "videos" : ["intro_data_science.mp4"]
+          "noteCoursSection": "/notesCours/Notes de cours Science des Données.pdf"
         },
         {
           "titreSection": "Projets de Science des Données",
@@ -245,8 +246,7 @@
           "dateDebutSection": "2024-08-21",
           "dateFinSection": "2024-08-30",
           "dureeSection": "10 jours", 
-          "noteCours": "Projets Science des Données",
-          "videos" : ["projets_data_science1.mp4", "projets_data_science2.mp4"]
+          "noteCoursSection": "/notesCours/Projets Science des Données.pdf"
         }
       ]
     },
@@ -255,13 +255,16 @@
       "titreCours": "Cybersecurity Fundamentals",
       "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
       "formateur": "David Brown",
-      "adresse": "En ligne",
+      "adresse": "1231 Saint-Catherine St W, Montreal, QC H3G 1P5",
       "dateDebutCours": "2024-09-01",
       "dateFinCors": "2024-09-30",
       "heureDebut": "18:00",
       "heureFin": "20:00",
       "isPromotion": false,
+      "datePromotionStart": "",
+      "datePromotionEnd": "",
       "prix": 400,
+      "newPrix": 400,
       "planFormation": "/plan/sync008.pdf",
       "image": "/photos/sync008.jpeg",
       "nombreEtoiles": "3",
@@ -273,8 +276,7 @@
           "dateDebutSection": "2024-09-01",
           "dateFinSection": "2024-09-15",
           "dureeSection": "15 jours", 
-          "noteCours": "Notes de cours Cybersecurité",
-          "videos" : ["intro_cybersecurity.mp4"]
+          "noteCoursSection": "/notesCours/Notes de cours Cybersecurité.pdf"
         },
         {
           "titreSection": "Applications pratiques de la Cybersecurité",
@@ -282,8 +284,7 @@
           "dateDebutSection": "2024-09-16",
           "dateFinSection": "2024-09-30",
           "dureeSection": "15 jours", 
-          "noteCours": "Projets Cybersecurité",
-          "videos" : ["projets_cybersecurity1.mp4", "projets_cybersecurity2.mp4"]
+          "noteCoursSection": "/notesCours/Projets Cybersecurité.pdf"
         }
       ]
     },
@@ -292,13 +293,16 @@
       "titreCours": "Deep Learning Specialization",
       "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
       "formateur": "Rachel Garcia",
-      "adresse": "En ligne",
+      "adresse": "1231 Saint-Catherine St W, Montreal, QC H3G 1P5",
       "dateDebutCours": "2024-10-05",
       "dateFinCors": "2024-10-31",
       "heureDebut": "19:00",
       "heureFin": "22:00",
       "isPromotion": false,
+      "datePromotionStart": "",
+      "datePromotionEnd": "",
       "prix": 600,
+      "newPrix": 600,
       "planFormation": "/plan/sync009.pdf",
       "image": "/photos/sync009.jpeg",
       "nombreEtoiles": "3",
@@ -310,8 +314,7 @@
           "dateDebutSection": "2024-10-05",
           "dateFinSection": "2024-10-20",
           "dureeSection": "16 jours", 
-          "noteCours": "Notes de cours Deep Learning",
-          "videos" : ["intro_deep_learning.mp4"]
+          "noteCoursSection": "/notesCours/Notes de cours Deep Learning.pdf"
         },
         {
           "titreSection": "Projets de Deep Learning",
@@ -319,8 +322,7 @@
           "dateDebutSection": "2024-10-21",
           "dateFinSection": "2024-10-31",
           "dureeSection": "10 jours", 
-          "noteCours": "Projets Deep Learning",
-          "videos" : ["projets_deep_learning1.mp4", "projets_deep_learning2.mp4"]
+          "noteCoursSection": "/notesCours/Projets Deep Learning.pdf"
         }
       ]
     },
@@ -329,13 +331,16 @@
       "titreCours": "Blockchain Fundamentals",
       "descCours": "Description  asdf asdf asdf  asdf  asdf asdf asfasdf ",
       "formateur": "Daniel Lee",
-      "adresse": "En ligne",
+      "adresse": "1231 Saint-Catherine St W, Montreal, QC H3G 1P5",
       "dateDebutCours": "2024-11-01",
       "dateFinCors": "2024-11-30",
       "heureDebut": "18:00",
       "heureFin": "20:00",
       "isPromotion": false,
+      "datePromotionStart": "",
+      "datePromotionEnd": "",
       "prix": 500,
+      "newPrix": 500,
       "planFormation": "/plan/sync010.pdf",
       "image": "/photos/sync010.jpeg",
       "nombreEtoiles": "3",
@@ -347,8 +352,7 @@
           "dateDebutSection": "2024-11-01",
           "dateFinSection": "2024-11-15",
           "dureeSection": "15 jours", 
-          "noteCours": "Notes de cours Blockchain",
-          "videos" : ["intro_blockchain.mp4"]
+          "noteCoursSectionSection": "/notesCours/Notes de cours Blockchain.pdf"
         },
         {
           "titreSection": "Applications de la Blockchain",
@@ -356,8 +360,7 @@
           "dateDebutSection": "2024-11-16",
           "dateFinSection": "2024-11-30",
           "dureeSection": "15 jours", 
-          "noteCours": "Projets Blockchain",
-          "videos" : ["projets_blockchain1.mp4", "projets_blockchain2.mp4"]
+          "noteCoursSectionSection": "/notesCours/Projets Blockchain.pdf"
         }
       ]
     }
