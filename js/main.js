@@ -28,7 +28,7 @@ function chargerAsyncCours() {
 }
 
 function afficherCoursAsync(){
-    var mainContent = document.getElementById("main-content");
+    var mainContent = document.getElementById("main-content-async");
 
     listeAsyncCours.forEach(element => {
         var div = document.createElement("div");
