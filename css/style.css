@@ -82,3 +82,15 @@ button:hover{
     gap: 20px;
     margin-top: 20px;
 }
+.img-star{
+    width: 20px;
+    height: 20px;
+}
+.container-star{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.card-title{
+    height: 50px;
+}

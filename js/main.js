@@ -42,12 +42,36 @@ function afficherCoursAsync(){
         var h5 = document.createElement("h5");
         h5.className = "card-title";
         h5.innerText = element.titreCours;
+        var p = document.createElement("p");
+        p.className = "card-text";
+        p.innerText = element.formateur;
+        var divStar = document.createElement("div");
+        divStar.className = "container-star";
+    
+
+        for(var i=0; i < element.nombreEtoiles; i++){
+            var star = document.createElement("img");
+            star.className = "img-star";
+            star.src = "./imgs/star.jpeg";
+            divStar.appendChild(star);
+        }
+
+        var h6price = document.createElement("h6");
+        h6price.innerText = element.prix + " CA$";
+
+
+        
         
         div2.appendChild(h5);
+        div2.appendChild(p);
+        div2.appendChild(divStar);
+        div2.appendChild(h6price);
         div.appendChild(image);
         div.appendChild(div2);
+        
 
         mainContent.appendChild(div);
 
     });
+
 }
