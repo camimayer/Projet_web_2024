@@ -74,7 +74,7 @@ button:hover{
     text-decoration: none;
 }
 
-#main-content-async{
+#main-content-async, #main-content-sync{
     display: grid;
     grid-template-columns: auto auto auto;
     margin: auto;
