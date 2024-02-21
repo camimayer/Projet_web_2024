@@ -17,7 +17,7 @@
       "newPrix": 150,
       "planFormation": "/plan/async001.pdf",
       "image": "./imgs/async001.png",
-      "nombreEtoiles": "5",
+      "nombreEtoiles": 5,
       "materiauxRequis": "L'ordinateur avec camera, l'internet haute vitesse",
       "sections": [
         {
@@ -70,7 +70,7 @@
       "newPrix": 350,
       "planFormation": "/plan/async002.pdf",
       "image": "./imgs/async002.png",
-      "nombreEtoiles": "5",
+      "nombreEtoiles": 5,
       "materiauxRequis": "Ordinateur avec connexion internet",
       "sections": [
         {
@@ -116,7 +116,7 @@
       "newPrix": 200,
       "planFormation": "/plan/async003.pdf",
       "image": "./imgs/async003.png",
-      "nombreEtoiles": "4",
+      "nombreEtoiles": 4,
       "materiauxRequis": "Ordinateur avec connexion internet",
       "sections": [
         {
@@ -162,7 +162,7 @@
       "newPrix": 400,
       "planFormation": "/plan/async004.pdf",
       "image": "./imgs/async004.png",
-      "nombreEtoiles": "4",
+      "nombreEtoiles": 4,
       "materiauxRequis": "Ordinateur avec connexion internet",
       "sections": [
         {
@@ -208,7 +208,7 @@
       "newPrix": 350,
       "planFormation": "/plan/async005.pdf",
       "image": "./imgs/async005.png",
-      "nombreEtoiles": "3",
+      "nombreEtoiles": 3,
       "materiauxRequis": "Ordinateur avec connexion internet",
       "sections": [
         {
@@ -254,7 +254,7 @@
       "newPrix": 450,
       "planFormation": "/plan/async006.pdf",
       "image": "./imgs/async006.png",
-      "nombreEtoiles": "4",
+      "nombreEtoiles": 4,
       "materiauxRequis": "Ordinateur avec connexion internet",
       "sections": [
         {
@@ -300,7 +300,7 @@
       "newPrix": 400,
       "planFormation": "/plan/async007.pdf",
       "image": "./imgs/async007.png",
-      "nombreEtoiles": "3",
+      "nombreEtoiles": 3,
       "materiauxRequis": "Ordinateur avec connexion internet",
       "sections": [
         {
@@ -346,7 +346,7 @@
       "newPrix": 350,
       "planFormation": "/plan/async008.pdf",
       "image": "./imgs/async008.png",
-      "nombreEtoiles": "3",
+      "nombreEtoiles": 3,
       "materiauxRequis": "Ordinateur avec connexion internet",
       "sections": [
         {
@@ -392,7 +392,7 @@
       "newPrix": 500,
       "planFormation": "/plan/async009.pdf",
       "image": "./imgs/async009.png",
-      "nombreEtoiles": "4",
+      "nombreEtoiles": 4,
       "materiauxRequis": "Ordinateur avec connexion internet",
       "sections": [
         {
@@ -438,7 +438,7 @@
       "newPrix": 450,
       "planFormation": "/plan/async010.pdf",
       "image": "./imgs/async010.png",
-      "nombreEtoiles": "3",
+      "nombreEtoiles": 3,
       "materiauxRequis": "Ordinateur avec connexion internet",
       "sections": [
         {
