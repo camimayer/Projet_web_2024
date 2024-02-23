@@ -48,7 +48,7 @@ function chargerSyncCours(){
     // xhr.open("GET", "https://raw.githubusercontent.com/camimayer/Projet_web_2024/master/json/coursSynchrone.json", false);
     xhr.open("GET", "/json/coursSynchrone.json", false);
     xhr.send();
-    
+    //alert("23:00" - "18:00");
     if (xhr.readyState == 4) {
         var reponseSyn = xhr.responseText;
         var objJSONSyn = JSON.parse(reponseSyn);
@@ -89,13 +89,16 @@ function afficherCoursAsync(){
         var h6price = document.createElement("h6");
         h6price.innerText = element.prix + " CA$";
 
-
+        var btnAjouter = document.createElement("a");
+        btnAjouter.className = "btn btn-primary";
+        btnAjouter.innerText = "Ajouter au Panier";
         
         
         div2.appendChild(h5);
         div2.appendChild(p);
         div2.appendChild(divStar);
         div2.appendChild(h6price);
+        div2.appendChild(btnAjouter);
         div.appendChild(image);
         div.appendChild(div2);
         
@@ -135,11 +138,16 @@ function afficherCoursSync(){
 
         var h6price = document.createElement("h6");
         h6price.innerText = element.prix + " CA$";
+
+        var btnAjouter = document.createElement("a");
+        btnAjouter.className = "btn btn-primary";
+        btnAjouter.innerText = "Ajouter au Panier";
         
         div2.appendChild(h5);
         div2.appendChild(p);
         div2.appendChild(divStar);
         div2.appendChild(h6price);
+        div2.appendChild(btnAjouter);
         div.appendChild(image);
         div.appendChild(div2);
         
