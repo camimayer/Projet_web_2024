@@ -1,7 +1,7 @@
 var listeAsyncCours;
 var listeSyncCours;
 
-function chargerAsyncCours() {
+function chargerAsyncCours(isDetails) {
     var xhr;
     try {
         xhr = new ActiveXObject("Msxm12.XMLHTTP");
@@ -24,11 +24,14 @@ function chargerAsyncCours() {
         var reponse = xhr.responseText;
         var objJSON = JSON.parse(reponse);
         listeAsyncCours = objJSON.Cours;
-        afficherCoursAsync();
+
+        if(isDetails != true){
+            afficherCoursAsync();
+        }
     }
 }
 
-function chargerSyncCours(){
+function chargerSyncCours(isDetails){
     var xhr;
     try {
         xhr = new ActiveXObject("Msxm12.XMLHTTP");
@@ -45,16 +48,20 @@ function chargerSyncCours(){
             }
         }
     }
-    // xhr.open("GET", "https://raw.githubusercontent.com/camimayer/Projet_web_2024/master/json/coursSynchrone.json", false);
-    xhr.open("GET", "/json/coursSynchrone.json", false);
+    xhr.open("GET", "https://raw.githubusercontent.com/camimayer/Projet_web_2024/master/json/coursSynchrone.json", false);
+    // xhr.open("GET", "/json/coursSynchrone.json", false);
     xhr.send();
     //alert("23:00" - "18:00");
     if (xhr.readyState == 4) {
         var reponseSyn = xhr.responseText;
         var objJSONSyn = JSON.parse(reponseSyn);
         listeSyncCours = objJSONSyn.Cours;
-        afficherCoursSync();
+       
+        if(isDetails != true){
+            afficherCoursSync();
+        }
     }
+
 }
 
 function afficherCoursAsync(){
@@ -69,9 +76,10 @@ function afficherCoursAsync(){
         image.className = "card-img-top";
         var div2 = document.createElement("div");
         div2.className = "card-body";
-        var h5 = document.createElement("h5");
-        h5.className = "card-title";
-        h5.innerText = element.titreCours;
+        var a = document.createElement("a");
+        a.className = "card-title-custom";
+        a.innerText = element.titreCours;
+        a.href = "details.html?id=" + element.id;
         var p = document.createElement("p");
         p.className = "card-text";
         p.innerText = element.formateur;
@@ -90,11 +98,11 @@ function afficherCoursAsync(){
         h6price.innerText = element.prix + " CA$";
 
         var btnAjouter = document.createElement("a");
-        btnAjouter.className = "btn btn-primary";
+        btnAjouter.className = "btn btn-primary w-100 mt-2";
         btnAjouter.innerText = "Ajouter au Panier";
         
         
-        div2.appendChild(h5);
+        div2.appendChild(a);
         div2.appendChild(p);
         div2.appendChild(divStar);
         div2.appendChild(h6price);
@@ -120,9 +128,10 @@ function afficherCoursSync(){
         image.className = "card-img-top";
         var div2 = document.createElement("div");
         div2.className = "card-body";
-        var h5 = document.createElement("h5");
-        h5.className = "card-title";
-        h5.innerText = element.titreCours;
+        var a = document.createElement("a");
+        a.className = "card-title-custom";
+        a.innerText = element.titreCours;
+        a.href = "details.html?id=" + element.id;
         var p = document.createElement("p");
         p.className = "card-text";
         p.innerText = element.formateur;
@@ -143,7 +152,7 @@ function afficherCoursSync(){
         btnAjouter.className = "btn btn-primary";
         btnAjouter.innerText = "Ajouter au Panier";
         
-        div2.appendChild(h5);
+        div2.appendChild(a);
         div2.appendChild(p);
         div2.appendChild(divStar);
         div2.appendChild(h6price);
@@ -153,4 +162,29 @@ function afficherCoursSync(){
         
         mainContentSync.appendChild(div);
     });
+}
+
+function chargerDetails(){
+    var id = window.location.href.split("=")[1];
+    var currentCourse;
+    
+    if(id.includes("async")){
+        chargerAsyncCours(true);
+        listeAsyncCours.forEach(element => {
+            if(element.id == id){
+                currentCourse = element;
+            }
+        });
+        console.log(currentCourse);
+    }else{
+        chargerSyncCours(true);
+        listeSyncCours.forEach(element => {
+            if(element.id == id){
+                currentCourse = element;
+            }
+        });
+        console.log(currentCourse);
+    }
+    
+    
 }

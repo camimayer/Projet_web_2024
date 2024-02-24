@@ -91,6 +91,17 @@ button:hover{
     flex-direction: row;
     margin-bottom: 10px;
 }
-.card-title{
+
+.card-title-custom{
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
     height: 50px;
+}
+
+.card-title-custom:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
