@@ -105,3 +105,15 @@ button:hover{
     text-decoration: underline;
     cursor: pointer;
 }
+.carousel-promo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+}
+#cours-promo-carous{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
