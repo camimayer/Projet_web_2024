@@ -117,3 +117,20 @@ button:hover{
     flex-direction: row;
     gap: 20px;
 }
+#populaire-cours{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    width: fit-content;
+    gap: 20px;
+    margin-top: 20px;
+}
+.old-price{
+    font-weight: bold;
+    color: red;
+
+}
+.new-price{
+    color: black;
+    text-decoration: line-through;
+}

@@ -208,7 +208,7 @@
       "newPrix": 350,
       "planFormation": "/plan/async005.pdf",
       "image": "./imgs/async005.png",
-      "nombreEtoiles": 3,
+      "nombreEtoiles": 5,
       "materiauxRequis": "Ordinateur avec connexion internet",
       "sections": [
         {

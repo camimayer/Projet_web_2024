@@ -213,9 +213,11 @@ function afficherPromo() {
 
     var h6newPrice = document.createElement("h6");
     h6newPrice.innerText = element.newPrix + " CA$";
+    h6newPrice.className = "old-price";
 
     var h7price = document.createElement("h7");
     h7price.innerText = element.prix + " CA$";
+    h7price.className = "new-price";
 
     var btnAjouter = document.createElement("a");
     btnAjouter.className = "btn btn-primary";
@@ -229,6 +231,7 @@ function afficherPromo() {
     div.appendChild(div2);
 
     coursPromoCarous.appendChild(div);
+    AfficherPopulaire();
   });
 }
 function carouselRight(){
@@ -240,5 +243,67 @@ function carouselLeft(){
     right = right - 1;
     left = left - 1;
     afficherPromo();
-
 }
+
+function AfficherPopulaire(){
+  var allCourses = listeAsyncCours.concat(listeSyncCours);
+  var coursPopulaire = document.getElementById("populaire-cours");
+  coursPopulaire.innerHTML = "";
+  var populaireCours = [];
+  allCourses.forEach((element) => {
+    if(element.nombreEtoiles == 5){
+      populaireCours.push(element);
+    }
+  })
+     console.log(populaireCours);
+
+    populaireCours.forEach((element) => {
+
+    var div = document.createElement("div");
+    div.className = "card";
+    div.style.width = "18rem";
+    var image = document.createElement("img");
+    image.src = element.image;
+    image.className = "card-img-top";
+    var div2 = document.createElement("div");
+    div2.className = "card-body";
+    var a = document.createElement("a");
+    a.className = "card-title-custom";
+    a.innerText = element.titreCours;
+    a.href = "details.html?id=" + element.id;
+    var p = document.createElement("p");
+    p.className = "card-text";
+    p.innerText = element.formateur;
+    var divStar = document.createElement("div");
+    divStar.className = "container-star";
+
+    for (var i = 0; i < element.nombreEtoiles; i++) {
+      var star = document.createElement("img");
+      star.className = "img-star";
+      star.src = "./imgs/star.jpeg";
+      divStar.appendChild(star);
+    }
+
+    var h6price = document.createElement("h6");
+    h6price.innerText = element.prix + " CA$";
+
+    var btnAjouter = document.createElement("a");
+    btnAjouter.className = "btn btn-primary";
+    btnAjouter.innerText = "Ajouter au Panier";
+
+    div2.appendChild(a);
+    div2.appendChild(p);
+    div2.appendChild(divStar);
+    div2.appendChild(h6price);
+    div2.appendChild(btnAjouter);
+    div.appendChild(image);
+    div.appendChild(div2);
+
+    coursPopulaire.appendChild(div);
+  });
+    
+   
+
+  
+
+ }
