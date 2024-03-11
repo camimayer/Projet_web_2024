@@ -134,3 +134,24 @@ button:hover{
     color: black;
     text-decoration: line-through;
 }
+.btn-setas:active {
+    border-color: #17954c;
+    color: #17954c;
+   }
+   .btn-setas:hover {
+    background: #02bfd2;
+    color:#fff; 
+   }
+   .btn-setas:before {
+    position: absolute;
+    height: 50%;
+    font-size:0.7em;
+    line-height: 3.5;
+    color: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+   }
+   .btn-setas:active:before {
+    color: #17954c;
+   }
