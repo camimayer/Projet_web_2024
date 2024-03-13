@@ -15,12 +15,31 @@
 </head>
 
 <body onload="afficherPanier()">
+    <header>
+        <div class="header">
+            <a class="grand-titre" href="">BROOKE & Co.</a>
+            
+            <div class="login-cart">
+                <div class="links">
+                    <a href="home.html">HOME</a>
+                    <a href="cours-asyn.html">COURS ASYNCHRONES</a>
+                    <a href="contact.html">CONTACT US</a>
+                    <a href="cours-syn.html">COURS SYNCHRONES</a>
+                </div>
+                <a href="URL" class="link-btn"><button class="button">LOGIN</button></a>
+                <a href="cart.html">
+                  <button class="btn-cart">
+                    <img src="./imgs/cart_img.png" width="60px">
+                  </button>
+                </a>
+            </div> 
+        </div>
+      </header>
     <table class="table" id="table-panier">
-        <tr>
+        <tr class="tr-cart1">
             <th></th>
             <th>Product</th>
             <th>Price</th>
-            <th>Subtotal</th>
             <th></th>
         </tr>
     </table>

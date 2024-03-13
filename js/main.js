@@ -150,7 +150,7 @@ function afficherCoursSync() {
     h6price.innerText = element.prix + " CA$";
 
     var btnAjouter = document.createElement("a");
-    btnAjouter.className = "btn btn-primary";
+    btnAjouter.className = "btn btn-primary w-100 mt-2";
     btnAjouter.innerText = "Ajouter au Panier";
 
     div2.appendChild(a);
@@ -224,7 +224,7 @@ function afficherPromo() {
     h7price.className = "new-price";
 
     var btnAjouter = document.createElement("a");
-    btnAjouter.className = "btn btn-primary";
+    btnAjouter.className = "btn btn-primary w-100 mt-2";
     btnAjouter.innerText = "Ajouter au Panier";
 
     div2.appendChild(a);
@@ -292,7 +292,7 @@ function AfficherPopulaire(){
     h6price.innerText = element.prix + " CA$";
 
     var btnAjouter = document.createElement("a");
-    btnAjouter.className = "btn btn-primary";
+    btnAjouter.className = "btn btn-primary w-100 mt-2";
     btnAjouter.innerText = "Ajouter au Panier";
 
     div2.appendChild(a);
@@ -312,16 +312,15 @@ function ajouterPanier(element) {
   var dejaAjoute = false;
 
   var panier = getCookie("panier") || "";
-
+  alert("Cours ajoute!");
   panier.split(",").forEach((el)=>{
     if(el === element.id){
-      dejaAjoute = true;
+      dejaAjoute = true;  
     }
   })
 
-
   if(dejaAjoute){
-    alert("Voce ja adc esse courso!")
+    alert("Vous avez deja adc cette cours!");
     return;
   }
   panier = panier + "," + element.id;
@@ -346,9 +345,9 @@ function afficherPanier() {
   console.log(panierCours);
 
   panierCours.forEach((element) => {
-    var table = document.createElement("table-panier");
+    var table = document.getElementById("table-panier");
     var tr = document.createElement("tr");
-    tr.className = "tr";
+    tr.className = "tr-cart2";
     var tdImg = document.createElement("td");
     var imagepanier = document.createElement("img");
     imagepanier.src = element.image;
@@ -363,13 +362,13 @@ function afficherPanier() {
     var btnDelete = document.createElement("button");
     btnDelete.className = "btn-delete-cart";
 
-    imagepanier.appendChild(tdImg);
-    btnDelete.appendChild(tdBtnDelete);
-    tdImg.appendChild(tr);
-    tdproduct.appendChild(tr);
-    tdprice.appendChild(tr);
-    tdBtnDelete.appendChild(tr);
-    tr.appendChild(table);
+    tdImg.appendChild(imagepanier);
+    tdBtnDelete.appendChild(btnDelete);
+    tr.appendChild(tdImg);
+    tr.appendChild(tdproduct);
+    tr.appendChild(tdprice);
+    tr.appendChild(tdBtnDelete);
+    table.appendChild(tr);
     
 
 
