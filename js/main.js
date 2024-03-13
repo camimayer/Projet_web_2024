@@ -100,6 +100,9 @@ function afficherCoursAsync() {
     var btnAjouter = document.createElement("a");
     btnAjouter.className = "btn btn-primary w-100 mt-2";
     btnAjouter.innerText = "Ajouter au Panier";
+    btnAjouter.addEventListener('click', function() {
+      ajouterPanier(element);
+    });
 
     div2.appendChild(a);
     div2.appendChild(p);
@@ -111,6 +114,7 @@ function afficherCoursAsync() {
 
     mainContent.appendChild(div);
   });
+  
 }
 
 function afficherCoursSync() {
@@ -301,9 +305,94 @@ function AfficherPopulaire(){
 
     coursPopulaire.appendChild(div);
   });
+
+}
+
+function ajouterPanier(element) {
+  var dejaAjoute = false;
+
+  var panier = getCookie("panier") || "";
+
+  panier.split(",").forEach((el)=>{
+    if(el === element.id){
+      dejaAjoute = true;
+    }
+  })
+
+
+  if(dejaAjoute){
+    alert("Voce ja adc esse courso!")
+    return;
+  }
+  panier = panier + "," + element.id;
+  document.cookie = "panier=" + panier + "; path=/";
+
+  console.log(document.cookie);
+
+}
+function afficherPanier() {
+  chargerAsyncCours(true);
+  chargerSyncCours(true);
+  var cookie = getCookie("panier");
+  var allCourses = listeAsyncCours.concat(listeSyncCours);
+  var splitCookie = cookie.split(",");
+  
+  var panierCours = [];
+  allCourses.forEach((element) => {
+    if(splitCookie.includes(element.id)){
+      panierCours.push(element);
+    }
+  })
+  console.log(panierCours);
+
+  panierCours.forEach((element) => {
+    var table = document.createElement("table-panier");
+    var tr = document.createElement("tr");
+    tr.className = "tr";
+    var tdImg = document.createElement("td");
+    var imagepanier = document.createElement("img");
+    imagepanier.src = element.image;
+    imagepanier.className = "img-panier";
+    var tdproduct = document.createElement("td");
+    tdproduct.innerText = element.titreCours;
+    tdproduct.className = "product-cart";
+    var tdprice = document.createElement("td");
+    tdprice.innerText = element.prix + "$CAD";
+    tdprice.className = "price-cart";
+    var tdBtnDelete = document.createElement("td");
+    var btnDelete = document.createElement("button");
+    btnDelete.className = "btn-delete-cart";
+
+    imagepanier.appendChild(tdImg);
+    btnDelete.appendChild(tdBtnDelete);
+    tdImg.appendChild(tr);
+    tdproduct.appendChild(tr);
+    tdprice.appendChild(tr);
+    tdBtnDelete.appendChild(tr);
+    tr.appendChild(table);
     
-   
+
+
 
   
+  });
 
- }
+
+
+}
+function getCookie(name) {
+  var cookieArr = document.cookie.split(";");
+  for (var i = 0; i < cookieArr.length; i++) {
+    var cookiePair = cookieArr[i].split("=");
+    if (name === cookiePair[0].trim()) {
+      return decodeURIComponent(cookiePair[1]);
+    }
+  }
+
+  return null;
+}
+
+
+function deleteAllCookies() {
+  document.cookie = "panier=" + "; path=/";
+}
