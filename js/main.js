@@ -334,7 +334,14 @@ function afficherPanier() {
   chargerSyncCours(true);
   var cookie = getCookie("panier");
   var allCourses = listeAsyncCours.concat(listeSyncCours);
-  var splitCookie = cookie.split(",");
+  var splitCookie = [];
+  if(cookie != null){
+    splitCookie = cookie.split(",");
+  }
+  else{
+    alert("Votre panier est vide!");
+  }
+
   
   var panierCours = [];
   allCourses.forEach((element) => {
@@ -361,6 +368,9 @@ function afficherPanier() {
     var tdBtnDelete = document.createElement("td");
     var btnDelete = document.createElement("button");
     btnDelete.className = "btn-delete-cart";
+    var i =  document.createElement("i");
+    i.className = "bi bi-trash";
+    btnDelete.appendChild(i);
 
     tdImg.appendChild(imagepanier);
     tdBtnDelete.appendChild(btnDelete);
@@ -369,10 +379,6 @@ function afficherPanier() {
     tr.appendChild(tdprice);
     tr.appendChild(tdBtnDelete);
     table.appendChild(tr);
-    
-
-
-
   
   });
 

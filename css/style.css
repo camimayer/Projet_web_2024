@@ -160,5 +160,18 @@ button:hover{
     border: white;
    }
  .tr-cart1 th{
-    background: linear-gradient(180deg, rgba(0,212,255,0.5) 0%, rgba(255,255,255,0.2) 100%);
+    background: linear-gradient(180deg, rgba(0,212,255,0.3) 0%, rgba(255,255,255,0.2) 100%);
+ }
+ #table-panier{
+    width: 50%;
+    margin: 50px;
+ }
+ #table-panier button{
+    border: 0;
+    color: tomato;
+    
+ }
+
+ .img-panier{
+    width: 80px;
  }
