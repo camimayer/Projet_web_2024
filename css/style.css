@@ -28,7 +28,7 @@ body{
 .grand-titre:hover{
     opacity: 0.6;
   }
-.links{
+.links, .footer-links {
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -36,7 +36,7 @@ body{
     margin-right: 10px;
     align-items: center;
 }
-.links a{
+.links a, .footer-links a {
     text-decoration: none;
     color: black;
     padding: 2px;
@@ -175,3 +175,34 @@ button:hover{
  .img-panier{
     width: 80px;
  }
+ .footer{
+    background-color: rgb(248, 249, 251);
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid darkgray;
+    border-top: 2px solid darkgray;
+    margin-top: 30px;
+}
+
+.footer div p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.footer div span {
+    margin-left: 20px;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 15px;
+    margin-right: 10px;
+    align-items: center;
+    margin-top: 15px;
+}
