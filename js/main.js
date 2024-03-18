@@ -397,7 +397,23 @@ function getCookie(name) {
   return null;
 }
 
-
 function deleteAllCookies() {
   document.cookie = "panier=" + "; path=/";
+}
+
+function calculerPrixTotal(){
+  chargerAsyncCours(true);
+  chargerSyncCours(true);
+  var cookie = getCookie("panier");
+  var allCourses = listeAsyncCours.concat(listeSyncCours);
+  var splitCookie = [];
+  if(cookie != null){
+    splitCookie = cookie.split(",");
+  }
+  else{
+    alert("Votre panier est vide!");
+  }
+
+  var prixTotal = 0;
+
 }
