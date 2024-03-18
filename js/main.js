@@ -152,6 +152,9 @@ function afficherCoursSync() {
     var btnAjouter = document.createElement("a");
     btnAjouter.className = "btn btn-primary w-100 mt-2";
     btnAjouter.innerText = "Ajouter au Panier";
+    btnAjouter.addEventListener('click', function() {
+      ajouterPanier(element);
+    });
 
     div2.appendChild(a);
     div2.appendChild(p);
@@ -226,6 +229,9 @@ function afficherPromo() {
     var btnAjouter = document.createElement("a");
     btnAjouter.className = "btn btn-primary w-100 mt-2";
     btnAjouter.innerText = "Ajouter au Panier";
+    btnAjouter.addEventListener('click', function() {
+      ajouterPanier(element);
+    });
 
     div2.appendChild(a);
     div2.appendChild(h7price);
@@ -294,6 +300,9 @@ function AfficherPopulaire(){
     var btnAjouter = document.createElement("a");
     btnAjouter.className = "btn btn-primary w-100 mt-2";
     btnAjouter.innerText = "Ajouter au Panier";
+    btnAjouter.addEventListener('click', function() {
+      ajouterPanier(element);
+    });
 
     div2.appendChild(a);
     div2.appendChild(p);
@@ -312,17 +321,16 @@ function ajouterPanier(element) {
   var dejaAjoute = false;
 
   var panier = getCookie("panier") || "";
-  alert("Cours ajoute!");
   panier.split(",").forEach((el)=>{
     if(el === element.id){
       dejaAjoute = true;  
     }
   })
-
   if(dejaAjoute){
     alert("Vous avez deja adc cette cours!");
     return;
   }
+  alert("Cours ajoute!");
   panier = panier + "," + element.id;
   document.cookie = "panier=" + panier + "; path=/";
 
@@ -348,9 +356,9 @@ function afficherPanier() {
     if(splitCookie.includes(element.id)){
       panierCours.push(element);
     }
-  })
+  });
+   
   console.log(panierCours);
-
   panierCours.forEach((element) => {
     var table = document.getElementById("table-panier");
     var tr = document.createElement("tr");
