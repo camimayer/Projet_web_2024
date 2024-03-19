@@ -352,7 +352,7 @@ function afficherPanier() {
 
   
   var panierCours = [];
-  totalPrice = 0;
+  var subtotal = 0;
   allCourses.forEach((element) => {
     if(splitCookie.includes(element.id)){
       panierCours.push(element);
@@ -389,10 +389,22 @@ function afficherPanier() {
     tr.appendChild(tdBtnDelete);
     table.appendChild(tr);
   
-    totalPrice = totalPrice + element.prix;
+    subtotal = subtotal + element.prix;
   });
-  alert(totalPrice);
-  
+  var subtotalId = document.getElementById("subtotal-id");
+  var gstId = document.getElementById("gst-id");
+  var qstId = document.getElementById("qst-id");
+  var totalFinalId = document.getElementById("final-total-id");
+
+  var gst = (subtotal*0.09975);
+  var totalFinal = (subtotal + gst);
+  var qst = (totalFinal* 0.05);
+  totalFinal = (totalFinal + qst);
+
+  subtotalId.innerText = subtotal.toFixed(2) + "$";
+  gstId.innerText = gst.toFixed(2) + "$";
+  qstId.innerText = qst.toFixed(2) + "$" ;
+  totalFinalId.innerText = totalFinal.toFixed(2) + "$"; 
 
 
 
@@ -413,19 +425,4 @@ function deleteAllCookies() {
   document.cookie = "panier=" + "; path=/";
 }
 
-// function calculerPrixTotal(){
-//   chargerAsyncCours(true);
-//   chargerSyncCours(true);
-//   var cookie = getCookie("panier");
-//   var allCourses = listeAsyncCours.concat(listeSyncCours);
-//   var splitCookie = [];
-//   if(cookie != null){
-//     splitCookie = cookie.split(",");
-//   }
-//   else{
-//     alert("Votre panier est vide!");
-//   }
 
-//   var prixTotal = 0;
-
-// }
