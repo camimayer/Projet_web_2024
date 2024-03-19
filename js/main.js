@@ -352,6 +352,7 @@ function afficherPanier() {
 
   
   var panierCours = [];
+  totalPrice = 0;
   allCourses.forEach((element) => {
     if(splitCookie.includes(element.id)){
       panierCours.push(element);
@@ -388,7 +389,10 @@ function afficherPanier() {
     tr.appendChild(tdBtnDelete);
     table.appendChild(tr);
   
+    totalPrice = totalPrice + element.prix;
   });
+  alert(totalPrice);
+  
 
 
 
@@ -409,19 +413,19 @@ function deleteAllCookies() {
   document.cookie = "panier=" + "; path=/";
 }
 
-function calculerPrixTotal(){
-  chargerAsyncCours(true);
-  chargerSyncCours(true);
-  var cookie = getCookie("panier");
-  var allCourses = listeAsyncCours.concat(listeSyncCours);
-  var splitCookie = [];
-  if(cookie != null){
-    splitCookie = cookie.split(",");
-  }
-  else{
-    alert("Votre panier est vide!");
-  }
+// function calculerPrixTotal(){
+//   chargerAsyncCours(true);
+//   chargerSyncCours(true);
+//   var cookie = getCookie("panier");
+//   var allCourses = listeAsyncCours.concat(listeSyncCours);
+//   var splitCookie = [];
+//   if(cookie != null){
+//     splitCookie = cookie.split(",");
+//   }
+//   else{
+//     alert("Votre panier est vide!");
+//   }
 
-  var prixTotal = 0;
+//   var prixTotal = 0;
 
-}
+// }

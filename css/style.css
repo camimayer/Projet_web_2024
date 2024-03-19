@@ -240,3 +240,35 @@ button:hover{
     color: white;
     font-size: 15px;
 }
+.full-cart{
+    display: flex;
+    flex-direction: row;
+}
+.total-price{
+    width: 50%;
+    margin: 50px;
+}
+.total-text{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(0,212,255,0.3) 0%, rgba(255,255,255,0.2) 100%);
+}
+.text-cart-total{
+    padding-left: 60px;
+}
+.btn-checkout-div{
+    display: flex;
+    justify-content: center;
+}
+.btn-checkout{
+    background-color: #008cff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn-checkout:hover {
+    background-color: #8dbff6;
+}
