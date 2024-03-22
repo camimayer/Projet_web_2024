@@ -26,7 +26,8 @@
           "dateDebutSection": "2024-03-04",
           "dateFinSection": "2024-03-29",
           "dureeSection": "26 jours", 
-          "noteCoursSection": "/notesCours/Notes de cours.pdf"
+          "noteCoursSection": "/notesCours/Notes de cours.pdf",
+          "videos": []
         }
       ]
     },
@@ -56,7 +57,8 @@
           "dateDebutSection": "2024-03-10",
           "dateFinSection": "2024-03-25",
           "dureeSection": "16 jours", 
-          "noteCoursSection": "/notesCours/Notes de cours Python.pdf"
+          "noteCoursSection": "/notesCours/Notes de cours Python.pdf",
+          "videos": []
         }
       ]
     },
@@ -86,7 +88,8 @@
           "dateDebutSection": "2024-04-01",
           "dateFinSection": "2024-04-15",
           "dureeSection": "15 jours", 
-          "noteCoursSection": "/notesCours/Notes de cours JavaScript.pdf"
+          "noteCoursSection": "/notesCours/Notes de cours JavaScript.pdf",
+          "videos": []
         },
         {
           "titreSection": "Projets JavaScript",
@@ -94,7 +97,8 @@
           "dateDebutSection": "2024-04-16",
           "dateFinSection": "2024-04-30",
           "dureeSection": "15 jours", 
-          "noteCoursSection": "/notesCours/Projets JavaScript.pdf"
+          "noteCoursSection": "/notesCours/Projets JavaScript.pdf",
+          "videos": []
         }
       ]
     },
@@ -124,7 +128,8 @@
           "dateDebutSection": "2024-05-05",
           "dateFinSection": "2024-05-20",
           "dureeSection": "16 jours", 
-          "noteCoursSection": "/notesCours/Notes de cours React Native.pdf"
+          "noteCoursSection": "/notesCours/Notes de cours React Native.pdf",
+          "videos": []
         },
         {
           "titreSection": "Développement d'applications",
@@ -132,7 +137,8 @@
           "dateDebutSection": "2024-05-21",
           "dateFinSection": "2024-05-30",
           "dureeSection": "10 jours", 
-          "noteCoursSection": "/notesCours/Projets React Native.pdf"
+          "noteCoursSection": "/notesCours/Projets React Native.pdf",
+          "videos": []
         }
       ]
     },
@@ -162,7 +168,8 @@
           "dateDebutSection": "2024-06-10",
           "dateFinSection": "2024-06-25",
           "dureeSection": "16 jours", 
-          "noteCoursSection": "/notesCours/Notes de cours Machine Learning.pdf"
+          "noteCoursSection": "/notesCours/Notes de cours Machine Learning.pdf",
+          "videos": []
         },
         {
           "titreSection": "Projets de Machine Learning",
@@ -170,7 +177,8 @@
           "dateDebutSection": "2024-06-26",
           "dateFinSection": "2024-07-05",
           "dureeSection": "10 jours", 
-          "noteCoursSection": "/notesCours/Projets Machine Learning.pdf"
+          "noteCoursSection": "/notesCours/Projets Machine Learning.pdf",
+          "videos": []
         }
       ]
     },
@@ -200,7 +208,8 @@
           "dateDebutSection": "2024-07-01",
           "dateFinSection": "2024-07-15",
           "dureeSection": "15 jours", 
-          "noteCoursSection": "/notesCours/Notes de cours Django.pdf"
+          "noteCoursSection": "/notesCours/Notes de cours Django.pdf",
+          "videos": []
         },
         {
           "titreSection": "Développement Web avec Django",
@@ -208,7 +217,8 @@
           "dateDebutSection": "2024-07-16",
           "dateFinSection": "2024-07-30",
           "dureeSection": "15 jours", 
-          "noteCoursSection": "/notesCours/Projets Django.pdf"
+          "noteCoursSection": "/notesCours/Projets Django.pdf",
+          "videos": []
         }
       ]
     },
@@ -238,7 +248,8 @@
           "dateDebutSection": "2024-08-05",
           "dateFinSection": "2024-08-20",
           "dureeSection": "16 jours", 
-          "noteCoursSection": "/notesCours/Notes de cours Science des Données.pdf"
+          "noteCoursSection": "/notesCours/Notes de cours Science des Données.pdf",
+          "videos": []
         },
         {
           "titreSection": "Projets de Science des Données",
@@ -246,7 +257,8 @@
           "dateDebutSection": "2024-08-21",
           "dateFinSection": "2024-08-30",
           "dureeSection": "10 jours", 
-          "noteCoursSection": "/notesCours/Projets Science des Données.pdf"
+          "noteCoursSection": "/notesCours/Projets Science des Données.pdf",
+          "videos": []
         }
       ]
     },
@@ -276,7 +288,8 @@
           "dateDebutSection": "2024-09-01",
           "dateFinSection": "2024-09-15",
           "dureeSection": "15 jours", 
-          "noteCoursSection": "/notesCours/Notes de cours Cybersecurité.pdf"
+          "noteCoursSection": "/notesCours/Notes de cours Cybersecurité.pdf",
+          "videos": []
         },
         {
           "titreSection": "Applications pratiques de la Cybersecurité",
@@ -284,7 +297,8 @@
           "dateDebutSection": "2024-09-16",
           "dateFinSection": "2024-09-30",
           "dureeSection": "15 jours", 
-          "noteCoursSection": "/notesCours/Projets Cybersecurité.pdf"
+          "noteCoursSection": "/notesCours/Projets Cybersecurité.pdf",
+          "videos": []
         }
       ]
     },
@@ -314,7 +328,8 @@
           "dateDebutSection": "2024-10-05",
           "dateFinSection": "2024-10-20",
           "dureeSection": "16 jours", 
-          "noteCoursSection": "/notesCours/Notes de cours Deep Learning.pdf"
+          "noteCoursSection": "/notesCours/Notes de cours Deep Learning.pdf",
+          "videos": []
         },
         {
           "titreSection": "Projets de Deep Learning",
@@ -322,7 +337,8 @@
           "dateDebutSection": "2024-10-21",
           "dateFinSection": "2024-10-31",
           "dureeSection": "10 jours", 
-          "noteCoursSection": "/notesCours/Projets Deep Learning.pdf"
+          "noteCoursSection": "/notesCours/Projets Deep Learning.pdf",
+          "videos": []
         }
       ]
     },
@@ -352,7 +368,8 @@
           "dateDebutSection": "2024-11-01",
           "dateFinSection": "2024-11-15",
           "dureeSection": "15 jours", 
-          "noteCoursSectionSection": "/notesCours/Notes de cours Blockchain.pdf"
+          "noteCoursSectionSection": "/notesCours/Notes de cours Blockchain.pdf",
+          "videos": []
         },
         {
           "titreSection": "Applications de la Blockchain",
@@ -360,7 +377,8 @@
           "dateDebutSection": "2024-11-16",
           "dateFinSection": "2024-11-30",
           "dureeSection": "15 jours", 
-          "noteCoursSectionSection": "/notesCours/Projets Blockchain.pdf"
+          "noteCoursSectionSection": "/notesCours/Projets Blockchain.pdf",
+          "videos": []
         }
       ]
     }
