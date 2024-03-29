@@ -189,6 +189,67 @@ function chargerDetails() {
     });
     console.log(currentCourse);
   }
+  var detailsSection = document.getElementById("details-section");
+
+  var coursDesc = document.createElement("h2");
+  coursDesc.innerText = currentCourse.descCours;
+  detailsSection.appendChild(coursDesc);
+
+  var coursAdresse = document.createElement("p");
+  coursAdresse.innerText = currentCourse.adresse;
+  coursAdresse.className = "adresse-cours";
+  var coursFormateur = document.createElement("p");
+  coursFormateur.innerText = currentCourse.formateur;
+  coursFormateur.className = "formateur-cours";
+  var coursTitre = document.createElement("h2");
+  coursTitre.innerText = currentCourse.titreCours;
+  coursTitre.className = "titre-cours";
+
+  detailsSection.appendChild(coursAdresse); 
+  detailsSection.appendChild(coursFormateur); 
+  detailsSection.appendChild(coursTitre); 
+
+  currentCourse.sections.forEach((section) => {
+
+    var divSection = document.createElement("div");
+    var sectionDescription = document.createElement("p");
+    sectionDescription.innerText = section.descSection;
+   
+    
+
+  
+    divSection.appendChild(sectionDescription);
+    
+    
+
+    var videosContainer = document.createElement("div");
+    section.videos.forEach((video) => {
+      var divVideo = document.createElement("div");
+      var videoTitle = document.createElement("h4");
+      videoTitle.className = "title-video";
+      videoTitle.innerText = video.titre;
+      var videoLink = document.createElement("a");
+      videoLink.innerText = video.url;
+      videoLink.href = video.url;
+      videoLink.className = "link-video";
+      var videoDescrip = document.createElement("p");
+      videoDescrip.innerText = video.description;
+      videoDescrip.className = "descrip-video";
+
+
+      divVideo.appendChild(videoTitle);
+      divVideo.appendChild(videoLink);
+      divVideo.appendChild(videoDescrip);
+
+      videosContainer.appendChild(divVideo);
+
+    });
+
+    divSection.appendChild(videosContainer);
+
+    detailsSection.appendChild(divSection);
+  });
+
 }
 function afficherPromo() {
   chargerAsyncCours(true);
