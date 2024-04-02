@@ -207,22 +207,50 @@ function chargerDetails() {
 
   detailsSection.appendChild(coursAdresse); 
   detailsSection.appendChild(coursFormateur); 
-  detailsSection.appendChild(coursTitre); 
+  detailsSection.appendChild(coursTitre);
+
+  var accordeonTotal = document.getElementById("accordionFlushExample");
 
   currentCourse.sections.forEach((section) => {
 
     var divSection = document.createElement("div");
-    var sectionDescription = document.createElement("p");
-    sectionDescription.innerText = section.descSection;
-   
-    
+    divSection.className = "accordion-item";
+    var sectionDescription = document.createElement("h2");
+    sectionDescription.className = "accordion-header";
+    sectionDescription.id = "flush-headingOne";
+    var buttonAccordion = document.createElement("button");
+    buttonAccordion.innerText = section.descSection;
+    buttonAccordion.className = "accordion-button collapsed";
+    buttonAccordion.type = "button";
+    buttonAccordion.setAttribute("data-bs-toggle", "collapse");
+    buttonAccordion.setAttribute("data-bs-target","#flush-collapseOne");
+    buttonAccordion.setAttribute("aria-expanded", "false");
+    buttonAccordion.setAttribute("aria-controls", "flush-collapseOne");
 
-  
+    sectionDescription.appendChild(buttonAccordion);
     divSection.appendChild(sectionDescription);
-    
-    
 
+    var accordeonCollapse = document.createElement("div");
+    accordeonCollapse.className = "accordion-collapse collapse";
+    accordeonCollapse.setAttribute("aria-labelledby", "flush-headingOne");
+    accordeonCollapse.setAttribute("data-bs-parent", "#accordionFlushExample");
+    accordeonCollapse.id="flush-collapseOne";
+  
     var videosContainer = document.createElement("div");
+    videosContainer.className = "accordion-body";
+
+    var dateDebut = document.createElement("p");
+    dateDebut.innerText = section.dateDebutSection != "" ? "Date de debut: " + section.dateDebutSection : "";
+    var dateFin = document.createElement("p");
+    dateFin.innerText = section.dateFinSection != "" ? "Date de fin: " + section.dateFinSection : "";
+    var duration = document.createElement("p");
+    duration.innerText = "Duration: " + section.dureeSection;
+
+    videosContainer.appendChild(dateDebut);
+    videosContainer.appendChild(dateFin);
+    videosContainer.appendChild(duration);
+
+
     section.videos.forEach((video) => {
       var divVideo = document.createElement("div");
       var videoTitle = document.createElement("h4");
@@ -244,10 +272,10 @@ function chargerDetails() {
       videosContainer.appendChild(divVideo);
 
     });
+    accordeonCollapse.appendChild(videosContainer);
+    divSection.appendChild(accordeonCollapse);
+    accordeonTotal.appendChild(divSection);
 
-    divSection.appendChild(videosContainer);
-
-    detailsSection.appendChild(divSection);
   });
 
 }
