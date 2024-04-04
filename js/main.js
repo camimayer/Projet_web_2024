@@ -191,23 +191,20 @@ function chargerDetails() {
   }
   var detailsSection = document.getElementById("details-section");
 
-  var coursDesc = document.createElement("h2");
-  coursDesc.innerText = currentCourse.descCours;
-  detailsSection.appendChild(coursDesc);
-
+  var coursTitre = document.createElement("h2");
+  coursTitre.innerText = currentCourse.titreCours;
+  coursTitre.className = "text-primary titre-cours";
   var coursAdresse = document.createElement("p");
   coursAdresse.innerText = currentCourse.adresse;
   coursAdresse.className = "adresse-cours";
   var coursFormateur = document.createElement("p");
-  coursFormateur.innerText = currentCourse.formateur;
+  coursFormateur.innerText = "Prof: " + currentCourse.formateur;
   coursFormateur.className = "formateur-cours";
-  var coursTitre = document.createElement("h2");
-  coursTitre.innerText = currentCourse.titreCours;
-  coursTitre.className = "titre-cours";
+  
 
-  detailsSection.appendChild(coursAdresse); 
+  detailsSection.appendChild(coursTitre); 
   detailsSection.appendChild(coursFormateur); 
-  detailsSection.appendChild(coursTitre);
+  detailsSection.appendChild(coursAdresse);
 
   var accordeonTotal = document.getElementById("accordionFlushExample");
 
@@ -253,6 +250,7 @@ function chargerDetails() {
 
     section.videos.forEach((video) => {
       var divVideo = document.createElement("div");
+      divVideo.className = "border border-info";
       var videoTitle = document.createElement("h4");
       videoTitle.className = "title-video";
       videoTitle.innerText = video.titre;
@@ -272,11 +270,20 @@ function chargerDetails() {
       videosContainer.appendChild(divVideo);
 
     });
+   
     accordeonCollapse.appendChild(videosContainer);
     divSection.appendChild(accordeonCollapse);
     accordeonTotal.appendChild(divSection);
 
   });
+  var btnAjouter = document.createElement("a");
+  btnAjouter.className = "btn btn-primary mt-4";
+  btnAjouter.innerText = "Ajouter au Panier";
+  btnAjouter.addEventListener('click', function() {
+    ajouterPanier(currentCourse);
+  });
+  accordeonTotal.appendChild(btnAjouter);
+  
 
 }
 function afficherPromo() {
