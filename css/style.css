@@ -293,3 +293,22 @@ footer{
 #details-section{
     margin-left: 22px;
 }
+.payment-complet{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgb(134, 175, 252), white);
+    height: 1020px;
+    width: auto;
+}
+.payment-div{
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 50%;
+    height: 50%;
+    margin-left: 20%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    padding: 80px;
+    border-radius: 15px;
+    font-size: 23px;
+}
