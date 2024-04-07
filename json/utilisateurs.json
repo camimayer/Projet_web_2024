@@ -1,0 +1,26 @@
+{
+    "Utilisateurs": [
+        {
+            "Nom": "Ricardo",
+            "Prenom": "Flavio",
+            "Email": "ricardo@gmail.com",
+            "MotPasse": "123456",
+            "adresse": "7705 Rue du Mans, ap 304",
+            "Ville": "Saint-Leonard",
+            "CodPostal": "H1S2A2",
+            "Province": "Quebec",
+            "Pays": "CA"
+        },
+        {
+            "Nom": "Souza",
+            "Prenom": "Camila",
+            "Email": "camila@gmail.com",
+            "MotPasse": "123456",
+            "adresse": "1864 Rue de Lanaudière",
+            "Ville": "Sainte-Julie",
+            "CodPostal": "J3E1B6",
+            "Province": "Quebec",
+            "Pays": "CA"
+        }
+    ]
+}
