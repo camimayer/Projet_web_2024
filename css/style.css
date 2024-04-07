@@ -262,6 +262,8 @@ button:hover{
     color: red;
     background: transparent;
     display: none;
+    margin-top: 5px;
+    margin-left:10px;
 }
 
 .full-cart{

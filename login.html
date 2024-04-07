@@ -31,16 +31,16 @@
     <form class="login-form">
         <div class="login">
             <H3>Connectez-vous à votre compte</H3>
-            <input type="text" id="idEmail" onchange="onChangeEmail()" placeholder="votre@email.com">
+            <input type="text" id="idEmail" onchange="basculeErreursEmail()" placeholder="votre@email.com">
             <div class="erreur" id="idEmailRequis">L'e-mail est obligatoire</div>
             <div class="erreur" id="idEmailInvalide">L'e-mail est invalide</div>
-            <br><br>
-            <input type="password" id="idMotPasse" onchange="onChangeMotPasse()" placeholder="Mot de passe">
+            <br id="br"><br id="br">
+            <input type="password" id="idMotPasse" onchange="basculeErreursMotPasse()" placeholder="Mot de passe">
             <div class="erreur" id="idMotPasseRequis">Le mot passe est obligatoire</div>
+            <br id="br2"><br id="br2">
+            <button type="button" class="buttonOublie" id="idButtonOblie">Mot de passe oublié?</button>
             <br><br>
-            <button type="button" class="buttonOublie" id="idButtonOblie" disabled="true">Mot de passe oublié?</button>
-            <br><br>
-            <button type="button" class="buttonContinue" id="idButtonContinue" onclick="login()" disabled="true">CONTINUE</button>
+            <button type="button" class="buttonContinue" id="idButtonContinue" onclick="valideLogin();">CONTINUE</button>
             <br>
             <div class="nouvelUtil"><p>Nouvel utilisateur?</p>
                 <button type="button" class="buttonNouvelUtil">INSCRIVEZ-VOUS ICI</button>
