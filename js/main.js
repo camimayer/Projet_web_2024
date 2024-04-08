@@ -341,14 +341,20 @@ function afficherPromo() {
   });
 }
 function carouselRight(){
-    right = right + 1;
-    left = left + 1;
-    afficherPromo();
+    if(right < 5){
+      right = right + 1;
+      left = left + 1;
+      afficherPromo();
+    }
+    
 }
 function carouselLeft(){
-    right = right - 1;
-    left = left - 1;
-    afficherPromo();
+    if(left > 0){
+      right = right - 1;
+      left = left - 1;
+      afficherPromo();
+    }
+    
 }
 
 function AfficherPopulaire(){
